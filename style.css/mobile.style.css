@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul {
+    display: flex;
+    list-style-type: none;
+    margin:0;
+    padding:0;
+}
+
+.navbar img {
+    height:50px;
+    width:100px;
+}
+
+.search-logo {
+    margin-left: 600px;
+}
