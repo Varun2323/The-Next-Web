@@ -1,20 +1,47 @@
 body {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .navbar ul {
-    display: flex;
-    list-style-type: none;
-    margin:0;
-    padding:0;
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  border: 1px solid green;
 }
 
 .navbar img {
-    height:50px;
-    width:100px;
+  height:40px;
+  width:80px;
 }
 
 .search-logo {
-    margin-left: 600px;
+  font-size: 30px;
+  padding-top: 5px;
+  margin-left: 420px;
+  border-left: 1px solid gray;
+  padding-left: 5px;
+  color:gray;
+}
+
+.ham-logo {
+  margin-left: 10px;
+  font-size: 38px;
+  color:#f42;
+  border-left: 1px solid gray;
+  padding-left: 5px;
+}
+
+.main .img-flex-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.img-flex-item {
+  padding: 2px;
+}
+
+.img-flex-item img {
+  
 }
