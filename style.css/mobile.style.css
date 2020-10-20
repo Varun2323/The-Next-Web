@@ -81,3 +81,12 @@ color: gray;
   margin-top: 2px;
 }
 
+.latest-news .latest-news-flex {
+  display:flex;
+  flex-direction: row;
+}
+
+.latest-news-flex img {
+  height:80px;
+  width:80px;
+}
