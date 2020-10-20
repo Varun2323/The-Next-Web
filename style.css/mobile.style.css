@@ -57,14 +57,8 @@ body {
 
 .img-flex-text {
   position: absolute;
-  margin-top: -120px;
+  margin-top: -100px;
   margin-left: 10px;
-}
-
-.text-1 {
-  margin-bottom: -20px;
-  font-size: 14px;
-  font-family: Shentox, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .big-text {
@@ -72,14 +66,18 @@ body {
   font-family: Avalon, sans-serif, 'Times New Roman', Times, serif;
   font-weight: 600;
   margin-bottom: -20px;
+  color: white;
 }
 
-.author-clock-share {
-  font-size: 12px;
-  font-family: "ARS Maquette", Arial, Helvetica, sans-serif;
+.img-flex-text .para-bottom {
+font-size: 14px;
+color: gray;
 }
 
-.author-clock-share i {
-  font-size: 20px;
-  padding-top: 5px;
+.img-flex-text span > i{
+  font-size: 16px;
+  color: gray;
+  padding-top: 8px;
+  margin-top: 2px;
 }
+
