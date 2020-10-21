@@ -9,9 +9,15 @@ body {
   box-sizing: border-box;
 }
 
+header {
+  width: 100%;
+  border:1px solid red;
+}
+
 .navbar {
   padding: 0;
   margin: 0;
+  width: 100%;
 }
 
 .navbar ul {
@@ -22,7 +28,6 @@ body {
   padding: 0;
   position: fixed;
   background: #fff;
-  width: 360px;
   z-index: 1;
 }
 
@@ -98,8 +103,7 @@ color: gray;
 }
 
 .latest-news .latest-news-flex {
-  display:flex;
-  flex-direction: row;
+  display: flex;
 }
 
 .latest-news h2 {
