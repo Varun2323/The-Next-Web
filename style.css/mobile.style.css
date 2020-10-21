@@ -142,22 +142,26 @@ color: gray;
   font-size: 12px;
 }
 
-.funding-rounds {
+.funding-rounds,
+.news-section {
   width: 330px;
   margin: 10px auto;
 }
 
-.funding-rounds h2 {
+.funding-rounds h2,
+.news-section h2 {
   font-family: "Avalon", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-weight: bolder;
 }
 
-.funding-rounds a {
+.funding-rounds a,
+.news-section a {
   text-decoration: none;
   color: #ff4422;
 }
 
-.funding-rounds i {
+.funding-rounds i,
+.news-section i {
   margin-left: 10px;
 }
 
@@ -262,4 +266,71 @@ color: gray;
 
 .funding-lastLine span {
   color: #aaa;
+}
+
+.news-section img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.news-section .news-img-text {
+  position: absolute;
+  font-family: "ARS Maquette", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: -130px;
+  margin-left: 10px;
+}
+
+.news-section .news-img-text .text-a {
+  font-size: 14px;
+  font-weight: 500;
+  color:white;
+}
+
+.news-section .news-img-text .text-b {
+  display:block;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 22px;
+  color: white;
+  margin-top: 2px;
+}
+
+.news-section .news-img-text .text-c {
+  display:block;
+  font-size: 12px;
+  color: gray;
+  margin-top: -10px;
+}
+
+.news-desc {
+  display: flex;
+}
+
+.news-desc .text {
+  width:70%;
+  color:#ff4422;
+  font-size: 17px;
+}
+
+.news-desc .text span {
+  font-weight: 700;
+  padding-top: 40px;
+}
+
+.news-desc .text-img {
+width:30%;
+}
+
+.news-desc .text-img img {
+  object-fit: cover;
+}
+
+.news-list .list-items li{
+  color:#ff4422;
+  border-bottom: .1px solid gray;
+}
+
+.news-list .list-items > li > p {
+font-size: 12px;
+color: black;
 }
