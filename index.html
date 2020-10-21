@@ -5,13 +5,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>The Next Web</title>
-  <link rel="stylesheet" media="screen and (min-width: 768px) and (max-width: 1024px)" href="style.css/desktop.style.css">
-  <link rel="stylesheet" media="screen and (min-width: 360px) and (max-width: 768px)"
-    href="style.css/tablet.style.css">
-  <link rel="stylesheet" media="screen and (max-width: 360px)"
-    href="style.css/mobile.style.css">
+  <link rel="stylesheet" media="screen and (min-width: 768px) and (max-width: 1024px)"
+    href="style.css/desktop.style.css">
+  <link rel="stylesheet" media="screen and (min-width: 360px) and (max-width: 768px)" href="style.css/tablet.style.css">
+  <link rel="stylesheet" media="screen and (max-width: 360px)" href="style.css/mobile.style.css">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+  <script src="https://kit.fontawesome.com/2bdc450678.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -20,20 +20,22 @@
     <nav class="navbar">
       <ul>
         <li>
-          <img src="images/tnw.png" alt="TNW Logo">
+          <img src="images/tnw.svg" alt="TNW Logo">
         </li>
         <li>
-          <ion-icon name="search-outline" class="search-logo"></ion-icon>
+          <!--<ion-icon name="search-outline" class="search-logo"></ion-icon>-->
+          <i class="fas fa-search fa-flip-horizontal search-logo"></i>
         </li>
         <li>
-          <ion-icon name="reorder-three-outline" class="3-lines ham-logo"></ion-icon>
+          <!--<ion-icon name="reorder-three-outline" class="3-lines ham-logo"></ion-icon>-->
+          <i class="fas fa-bars 3-lines ham-logo"></i>
         </li>
       </ul>
     </nav>
   </header>
 
   <main class="main">
-<!-- ================Images Flex Container============= -->
+    <!-- ================Images Flex Container============= -->
     <section class="img-flex-container">
 
       <div class="img-flex-item">
@@ -42,110 +44,201 @@
           <p class="big-text">
             Bored at home? Here’s 10 handy <br>tools you can build with Python
           </p>
-          <p class="para-bottom">by Claire D costa <span><i class="material-icons">schedule</i></span>2 hours ago <span><i class="material-icons">share</i> 4</p>
+          <p class="para-bottom">by Claire D costa <span><i class="material-icons">schedule</i></span>2 hours ago
+            <span><i class="material-icons">share</i> 4</p>
         </div>
       </div>
 
       <div class="img-flex-item">
         <img src="images/img-2.jpg" alt="Talk-on-Demand-img">
         <div class="img-flex-text">
-            <p class="big-text">
-                Watch all TNW2020 talks on- <br>demand
-            </p>
-          </div>
+          <p class="big-text">
+            Watch all TNW2020 talks on- <br>demand
+          </p>
+        </div>
       </div>
 
       <div class="img-flex-item">
         <img src="images/img-4.png" alt="I-pad-img">
         <div class="img-flex-text">
-            <p class="big-text">
-                How Photoshop’s new Neural <br> harness AI to generate new pixels
-            </p>
-            <p class="para-bottom">by Thomas Macaulay <span><i class="material-icons">schedule</i></span>2 hours ago <span><i class="material-icons">share</i> 9</p>
-          </div>
+          <p class="big-text">
+            How Photoshop’s new Neural <br> harness AI to generate new pixels
+          </p>
+          <p class="para-bottom">by Thomas Macaulay <span><i class="material-icons">schedule</i></span>2 hours ago
+            <span><i class="material-icons">share</i> 9</p>
+        </div>
       </div>
 
-    </div>
-<!-- =================Latest News Section================= -->
+      </div>
+      <!-- ================= Latest News Section ================= -->
 
-<section class="latest-news">
-    <h2> Latest News > </h2>
-    <div class="latest-news">
-<div class="latest-news-flex">
-<img src="images/news-a.jpg" alt="news-picture">
-<div class="news-para">
-<p>
-    6 things you should know before <br>choosing a web hosting company
-</p>
-<span>Ben Dickson . 7 hours ago</span>
-</div>
-</div>
-<div class="latest-news-flex">
-    <img src="images/news-b.jpg" alt="news-picture">
-    <div class="news-para">
-    <p>
-        All the new AI-powered features <br>Adobe announced for its creative<br>suite
-    </p>
-    <span>Ivan Mehta . 7 hours ago</span>
-    </div>
-    </div>
-    <div class="latest-news-flex">
-        <img src="images/news-c.jpg" alt="news-picture">
-        <div class="news-para">
-        <p>
-            Adobe brings Illustrator to iPad <br>and Fresco to iPhone
-        </p>
-        <span>Ivan Mehta . 7 hours ago</span>
-        </div>
-        </div>
-        <div class="latest-news-flex">
+      <section class="latest-news">
+
+        <h2> Latest News <i class="fas fa-angle-right"></i></h2>
+        <div class="latest-news">
+          <div class="latest-news-flex">
+            <img src="images/news-a.jpg" alt="news-picture">
+            <div class="news-para">
+              <p>
+                6 things you should know before <br>choosing a web hosting company
+              </p>
+              <span>Ben Dickson . 7 hours ago</span>
+            </div>
+          </div>
+
+          <div class="latest-news-flex">
+            <img src="images/news-b.jpg" alt="news-picture">
+            <div class="news-para">
+              <p>
+                All the new AI-powered features <br>Adobe announced for its creative<br>suite
+              </p>
+              <span>Ivan Mehta . 7 hours ago</span>
+            </div>
+          </div>
+
+          <div class="latest-news-flex">
+            <img src="images/news-c.jpg" alt="news-picture">
+            <div class="news-para">
+              <p>
+                Adobe brings Illustrator to iPad <br>and Fresco to iPhone
+              </p>
+              <span>Ivan Mehta . 7 hours ago</span>
+            </div>
+          </div>
+          <div class="latest-news-flex">
             <img src="images/news-d.png" alt="news-picture">
             <div class="news-para">
-            <p>
+              <p>
                 Here’s why cargo bikes make <br>more sense than vans for inner <br>city deliveries
-            </p>
-            <span>Urban Mobility Daily . 9 hours ago</span>
+              </p>
+              <span>Urban Mobility Daily . 9 hours ago</span>
             </div>
+          </div>
+
+          <div class="latest-news-flex">
+            <img src="images/news-e.jpg" alt="news-picture">
+            <div class="news-para">
+              <p>
+                DxOMark debuts a new way to rate<br> phone displays
+              </p>
+              <span>Ivan Mehta . 9 hours ago</span>
             </div>
-            <div class="latest-news-flex">
-                <img src="images/news-e.jpg" alt="news-picture">
-                <div class="news-para">
-                <p>
-                    DxOMark debuts a new way to rate<br> phone displays
-                </p>
-                <span>Ivan Mehta . 9 hours ago</span>
-                </div>
-                </div>
-                <div class="latest-news-flex">
-                    <img src="images/news-f.png" alt="news-picture">
-                    <div class="news-para">
-                    <p>
-                        The ultimate guide to getting hired<br> as a Python programmery
-                    </p>
-                    <span>Live Code Stream . 9 hours ago</span>
-                    </div>
-                </div>
-                    <div class="latest-news-flex">
-                        <img src="images/news-g.png" alt="news-picture">
-                        <div class="news-para">
-                        <p>
-                            Forget 'users' and focus on the 7 <br>steps to make your organization <br>'memberful'
-                        </p>
-                        <span>Herald Dunnick . 10 hours ago</span>
-                        </div>
-                        </div>
-                        <div class="  latest-news-flex">
-                            <img src="images/news-h.jpg" alt="news-picture">
-                            <div class="news-para">
-                            <p>
-                                Facebook’s new AI model<br> translates 100 languages —<br> without going through English<br> first
-                            </p>
-                            <span>Thomas MAcaulay . 9 hours ago</span>
-                            </div>
-                            </div>
-                    
-</div>
-</section>
+          </div>
+
+          <div class="latest-news-flex">
+            <img src="images/news-f.png" alt="news-picture">
+            <div class="news-para">
+              <p>
+                The ultimate guide to getting hired<br> as a Python programmery
+              </p>
+              <span>Live Code Stream . 9 hours ago</span>
+            </div>
+          </div>
+
+          <div class="latest-news-flex">
+            <img src="images/news-g.png" alt="news-picture">
+            <div class="news-para">
+              <p>
+                Forget 'users' and focus on the 7 <br>steps to make your organization <br>'memberful'
+              </p>
+              <span>Herald Dunnick . 10 hours ago</span>
+            </div>
+          </div>
+
+          <div class="  latest-news-flex">
+            <img src="images/news-h.png" alt="news-picture">
+            <div class="news-para">
+              <p>
+                Facebook’s new AI model<br> translates 100 languages —<br> without going through English<br> first
+              </p>
+              <span>Thomas MAcaulay . 9 hours ago</span>
+            </div>
+          </div>
+
+        </div>
+
+      </section>
+
+      <!--=================== Latest Funding Rounds Section ==================-->
+
+      <section class="funding-rounds">
+
+        <h2><a href="#">Latest funding rounds on Index.co<i class="fas fa-angle-right"></i></a></h2>
+
+        <div class="funding-firstLines">
+          <p><a href="#">See more</a></p>
+          <p><a href="#">Get updates by email</a></p>
+          <p><a href="#">Add info</a></p>
+        </div>
+
+        <div class="funding-box">
+
+          <img src="images/funding-dq.jpeg" alt="dq image">
+          <div class="fund-redTop">
+            <h4>decentriq</h4>
+          </div>
+          <div class="fund-lightRed">
+            <div class="lightRed-text">
+              <p class="lightRed-boldText">$3.8M</p>
+              <p class="lightRed-greyText">SEE FUND</p>
+            </div>
+          </div>
+
+          <div class="funding-icons">
+            <p><i class="material-icons">local_offer</i>&nbsp;&nbsp;<span>Enterprise Software, +3</span></p>
+            <p><i class="material-icons">business_center</i>&nbsp;&nbsp;<span>Paladin Capital Group, +2</span></p>
+          </div>
+
+        </div>
+
+        <p class="funding-lastLine">Data platform Decentriq raises $3.8m<span> on UKTN (UK Tech News)</span></p>
+
+        <div class="funding-box">
+
+          <img src="images/funding-3lines.jpeg" alt="edrone image">
+          <div class="fund-redTop">
+            <h4>edrone</h4>
+          </div>
+          <div class="fund-lightRed">
+            <div class="lightRed-text">
+              <p class="lightRed-boldText">€4.5M</p>
+              <p class="lightRed-greyText">SERIES A</p>
+            </div>
+          </div>
+
+          <div class="funding-icons">
+            <p><i class="material-icons">local_offer</i>&nbsp;&nbsp;<span>E-Commerce</span></p>
+            <p><i class="material-icons">business_center</i>&nbsp;&nbsp;<span>PortfoLion</span></p>
+          </div>
+
+        </div>
+
+        <p class="funding-lastLine">Polish martech startup Edrone raises €4.5 million<span> on E-Commerce News</span></p>
+
+        <div class="funding-box">
+          <img src="images/funding-lu.png" alt="LearnUpon image">
+          <div class="fund-redTop">
+            <h4>LearnUpon</h4>
+          </div>
+          <div class="fund-lightRed">
+            <div class="lightRed-text">
+              <p class="lightRed-boldText">$56M</p>
+              <p class="lightRed-greyText">VENTURE CAPITAL</p>
+            </div>
+          </div>
+
+          <div class="funding-icons">
+            <p><i class="material-icons">local_offer</i>&nbsp;&nbsp;<span>Education, +3</span></p>
+            <p><i class="material-icons">business_center</i>&nbsp;&nbsp;<span>Summit Partners</span></p>
+          </div>
+
+        </div>
+
+        <p class="funding-lastLine">Dublin’s LearnUpon raises $56M for its online learning management system for enterprises<span> on TechCrunch</span></p>
+
+      </section>
+
+
   </main>
 
 
