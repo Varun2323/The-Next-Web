@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header .nav-mob {
+  display: none;
+}
+
+header .nav-tab-a .nav-tab-1 ul,
+header .nav-tab-b .nav-tab-2 ul {
+  display: flex;
+}
+
+header .nav-tab-logo {
+  height: 17px;
+  width: 75px;
+  background: #000;
+  padding: 15px 18px;
+}

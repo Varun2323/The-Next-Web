@@ -9,20 +9,26 @@ body {
   box-sizing: border-box;
 }
 
+header .nav-tab-a,
+header .nav-tab-b {
+  display: none;
+}
+
 header {
   position: sticky;
   top: 0;
+  margin: 0;
   background: #fff;
   z-index: 1;
 }
 
-.navbar {
+.navbar-mob {
   display: flex;
   border-bottom: 1px solid lightgrey;
   width: 100%;
 }
 
-.navbar ul {
+.navbar-mob ul {
   display: flex;
   list-style-type: none;
   box-sizing: border-box;
@@ -35,7 +41,7 @@ header {
   box-shadow: 0 2px 2px -2px rgba(0,0,0,.2);
 }
 
-.navbar img {
+.navbar-mob img {
   height: 17px;
   width: 75px;
   background: #000;

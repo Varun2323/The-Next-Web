@@ -6,8 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>The Next Web</title>
   <!--<link rel="stylesheet" media="screen and (min-width: 1024px)"
-    href="style.css/desktop.style.css">
-  <link rel="stylesheet" media="screen and (min-width: 768px) and (max-width: 1024px)" href="style.css/tablet.style.css">-->
+    href="style.css/desktop.style.css">-->
+  <link rel="stylesheet" media="screen and (min-width: 768px) and (max-width: 1024px)" href="style.css/tablet.style.css">
   <link rel="stylesheet" href="style.css/mobile.style.css">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
@@ -17,19 +17,52 @@
 <body>
 
   <header>
-    <nav class="navbar">
-      <img src="images/tnw.svg" alt="TNW Logo">
-      <ul>
-        <li>
-          <!--<ion-icon name="search-outline" class="search-logo"></ion-icon>-->
-          <i class="fas fa-search fa-flip-horizontal search-logo"></i>
-        </li>
-        <li>
-          <!--<ion-icon name="reorder-three-outline" class="3-lines ham-logo"></ion-icon>-->
-          <i class="fas fa-bars 3-lines ham-logo"></i>
-        </li>
-      </ul>
-    </nav>
+    <section class="nav-mob">
+      <nav class="navbar-mob">
+        <img src="images/tnw.svg" alt="TNW Logo">
+        <ul>
+          <li>
+            <i class="fas fa-search fa-flip-horizontal search-logo"></i>
+          </li>
+          <li>
+            <i class="fas fa-bars 3-lines ham-logo"></i>
+          </li>
+        </ul>
+      </nav>
+    </section>
+
+    <section class="nav-tab-a">
+      <img src="images/tnw.svg" alt="TNW Logo" class="nav-tab-logo">
+      <nav class="nav-tab-1">
+        <ul>
+          <li><a href="#" class="nav-News">News</a></li>
+          <li><a href="#">Events</a></li>
+          <li><a href="#">Business</a></li>
+          <li><a href="#">AMAs</a></li>
+          <li><a href="#">Spaces</a></li>
+          <li><a href="#">Terms&Conditions</a></li>
+        </ul>
+        <ul>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Advertise</a></li>
+          <li><a href="#">Jobs</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </section>
+
+    <section class="nav-tab-b">
+      <nav class="nav-tab-2">
+        <ul>
+          <li><a href="#">LATEST</a></li>
+          <li><a href="#">HARD FORK</a></li>
+          <li><a href="#">PLUGGED</a></li>
+          <li><a href="#">README</a></li>
+          <li><a href="#">GROWTH QUARTERS</a></li>
+        </ul>
+      </nav>
+    </section>
+
   </header>
 
   <main class="main">
@@ -42,7 +75,7 @@
         <img src="images/img-5.png" alt="Al-Powered-Feature-img">
         <div class="img-flex-text">
           <p class="big-text">
-            Bored at home? Here’s 10 handy <br>tools you can build with Python
+            Bored at home? Here’s 10 handy tools you can build with Python
           </p>
           <p class="para-bottom">by Claire D costa 2 hours ago
             <span><i class="material-icons">share</i> 4</p>
@@ -53,7 +86,7 @@
         <img src="images/img-2.jpg" alt="Talk-on-Demand-img">
         <div class="img-flex-text">
           <p class="big-text">
-            Watch all TNW2020 talks on- <br>demand
+            Watch all TNW2020 talks on-demand
           </p>
         </div>
       </div>
@@ -62,7 +95,7 @@
         <img src="images/img-4.png" alt="I-pad-img">
         <div class="img-flex-text">
           <p class="big-text">
-            How Photoshop’s new Neural <br> harness AI to generate new pixels
+            How Photoshop’s new Neural harness AI to generate new pixels
           </p>
           <p class="para-bottom">by Thomas Macaulay <span><i class="material-icons">schedule</i></span>2 hours ago
             <span><i class="material-icons">share</i> 9</p>
