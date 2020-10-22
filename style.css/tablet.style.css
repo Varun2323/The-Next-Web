@@ -8,8 +8,8 @@ header .nav-mob {
   display: none;
 }
 
-header .nav-tab-a .nav-tab-1 ul,
-header .nav-tab-b .nav-tab-2 ul {
+header .tablet-nav .nav-tab-1 ul,
+header .tablet-nav .nav-tab-2 ul {
   display: flex;
 }
 

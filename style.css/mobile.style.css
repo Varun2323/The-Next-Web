@@ -9,12 +9,12 @@ body {
   box-sizing: border-box;
 }
 
-header .nav-tab-a,
-header .nav-tab-b {
+.tablet-nav,
+header ul {
   display: none;
 }
 
-header {
+.nav-mob {
   position: sticky;
   top: 0;
   margin: 0;
@@ -22,13 +22,13 @@ header {
   z-index: 1;
 }
 
-.navbar-mob {
+.nav-mob {
   display: flex;
   border-bottom: 1px solid lightgrey;
   width: 100%;
 }
 
-.navbar-mob ul {
+.nav-mob ul {
   display: flex;
   list-style-type: none;
   box-sizing: border-box;
@@ -41,7 +41,7 @@ header {
   box-shadow: 0 2px 2px -2px rgba(0,0,0,.2);
 }
 
-.navbar-mob img {
+.nav-mob img {
   height: 17px;
   width: 75px;
   background: #000;
