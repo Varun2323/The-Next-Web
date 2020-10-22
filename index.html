@@ -5,10 +5,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>The Next Web</title>
-  <link rel="stylesheet" media="screen and (min-width: 768px) and (max-width: 1024px)"
+  <!--<link rel="stylesheet" media="screen and (min-width: 1024px)"
     href="style.css/desktop.style.css">
-  <link rel="stylesheet" media="screen and (min-width: 360px) and (max-width: 768px)" href="style.css/tablet.style.css">
-  <link rel="stylesheet" media="screen and (max-width: 360px)" href="style.css/mobile.style.css">
+  <link rel="stylesheet" media="screen and (min-width: 768px) and (max-width: 1024px)" href="style.css/tablet.style.css">-->
+  <link rel="stylesheet" href="style.css/mobile.style.css">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
   <script src="https://kit.fontawesome.com/2bdc450678.js" crossorigin="anonymous"></script>
@@ -18,10 +18,8 @@
 
   <header>
     <nav class="navbar">
+      <img src="images/tnw.svg" alt="TNW Logo">
       <ul>
-        <li>
-          <img src="images/tnw.svg" alt="TNW Logo">
-        </li>
         <li>
           <!--<ion-icon name="search-outline" class="search-logo"></ion-icon>-->
           <i class="fas fa-search fa-flip-horizontal search-logo"></i>
@@ -75,7 +73,7 @@
 
       <!-- ================= Latest News Section ================= -->
 
-      <section class="latest-news">
+      <section class="latest">
 
         <h2> Latest News <i class="fas fa-angle-right"></i></h2>
 
@@ -85,7 +83,7 @@
             <img src="images/news-a.jpg" alt="news-picture">
             <div class="news-para">
               <p>
-                6 things you should know before <br>choosing a web hosting company
+                6 things you should know before choosing a web hosting company
               </p>
               <span>Ben Dickson . 7 hours ago</span>
             </div>
@@ -95,7 +93,7 @@
             <img src="images/news-b.jpg" alt="news-picture">
             <div class="news-para">
               <p>
-                All the new AI-powered features <br>Adobe announced for its creative<br>suite
+                All the new AI-powered features Adobe announced for its creative suite
               </p>
               <span>Ivan Mehta . 7 hours ago</span>
             </div>
@@ -105,7 +103,7 @@
             <img src="images/news-c.jpg" alt="news-picture">
             <div class="news-para">
               <p>
-                Adobe brings Illustrator to iPad <br>and Fresco to iPhone
+                Adobe brings Illustrator to iPad and Fresco to iPhone
               </p>
               <span>Ivan Mehta . 7 hours ago</span>
             </div>
@@ -114,7 +112,7 @@
             <img src="images/news-d.png" alt="news-picture">
             <div class="news-para">
               <p>
-                Here’s why cargo bikes make <br>more sense than vans for inner <br>city deliveries
+                Here’s why cargo bikes make more sense than vans for inner city deliveries
               </p>
               <span>Urban Mobility Daily . 9 hours ago</span>
             </div>
@@ -124,7 +122,7 @@
             <img src="images/news-e.jpg" alt="news-picture">
             <div class="news-para">
               <p>
-                DxOMark debuts a new way to rate<br> phone displays
+                DxOMark debuts a new way to rate phone displays
               </p>
               <span>Ivan Mehta . 9 hours ago</span>
             </div>
@@ -134,7 +132,7 @@
             <img src="images/news-f.png" alt="news-picture">
             <div class="news-para">
               <p>
-                The ultimate guide to getting hired<br> as a Python programmery
+                The ultimate guide to getting hired as a Python programmery
               </p>
               <span>Live Code Stream . 9 hours ago</span>
             </div>
@@ -144,7 +142,7 @@
             <img src="images/news-g.png" alt="news-picture">
             <div class="news-para">
               <p>
-                Forget 'users' and focus on the 7 <br>steps to make your organization <br>'memberful'
+                Forget 'users' and focus on the 7 steps to make your organization 'memberful'
               </p>
               <span>Herald Dunnick . 10 hours ago</span>
             </div>
@@ -154,7 +152,7 @@
             <img src="images/news-h.png" alt="news-picture">
             <div class="news-para">
               <p>
-                Facebook’s new AI model<br> translates 100 languages —<br> without going through English<br> first
+                Facebook’s new AI model translates 100 languages — without going through English first
               </p>
               <span>Thomas MAcaulay . 9 hours ago</span>
             </div>
@@ -244,21 +242,23 @@
           enterprises<span> on TechCrunch</span></p>
 
       </section>
+
       <!-- ================ Hard folk Section================= -->
+
       <section class="news-section">
         <h2><a href="#">Hard Fork <i class="fas fa-angle-right"></i></a></h2>
         <div class="news-img">
           <img src="images/news-img-a.jpg" alt="popular-news-image">
           <div class="news-img-text">
             <span class="text-a">MOST POPULAR</span>
-            <p class="text-b">NY watchdog attacks Twitter <br> over 'jarringly easy' Bitcoin <br> scam hack</p>
+            <p class="text-b">NY watchdog attacks Twitter over 'jarringly easy' Bitcoin  scam hack</p>
             <span class="text-c">David Canellis . 6 days ago</span>
           </div>
         </div>
         <div class="news-desc">
           <div class="text">
             <span>LATEST</span>
-            <p>Disney wants Netflix's <br> throne, and the Wall Street <br> crowd is into it</p>
+            <p>Disney wants Netflix's throne, and the Wall Street crowd is into it</p>
           </div>
           <div class="text-img">
             <img src="images/news-news.jpg" alt="Disney image">
@@ -267,19 +267,19 @@
         <div class="news-list">
           <ul class="list-items">
             <li>
-              <p>Disney wants Netflix's throne, and the Wall Street <br>crowd is into it</p>
+              <p>Disney wants Netflix's throne, and the Wall Street is into it</p>
             </li>
             <li>
-              <p>Here's why the UK and US's crypto clampdowns<br> won't stop Bitcoin trading</p>
+              <p>Here's why the UK and US's crypto clampdowns won't stop Bitcoin trading</p>
             </li>
             <li>
-              <p>‘Mysterious’ billionaire cashes in $127M worth of <br>Gates-backed pharma stock</p>
+              <p>‘Mysterious’ billionaire cashes in $127M worth of-backed pharma stock</p>
             </li>
             <li>
-              <p>Xilinx stock pumps 17% on reports that AMD will buy <br>it for $30B</p>
+              <p>Xilinx stock pumps 17% on reports that AMD will buy for $30B</p>
             </li>
             <li>
-              <p>CRISPR's Nobel Prize sent gene-editing stocks into <br> overdrive</p>
+              <p>CRISPR's Nobel Prize sent gene-editing stocks into overdrive</p>
             </li>
           </ul>
         </div>
@@ -293,14 +293,14 @@
           <img src="images/apps-img.png" alt="popular-news-image">
           <div class="news-img-text">
             <span class="text-a">MOST POPULAR</span>
-            <p class="text-b">You can now grant access to<br> Google Drive files directly<br> from Gmail</p>
+            <p class="text-b">You can now grant access to Google Drive files directly from Gmail</p>
             <span class="text-c">Callum Booth . 56 minutes ago</span>
           </div>
         </div>
         <div class="news-desc">
           <div class="text">
             <span>LATEST</span>
-            <p>Apple creates its own music<br> video channel and… invents<br> MTV?</p>
+            <p>Apple creates its own music video channel and… invents MTV?</p>
           </div>
           <div class="text-img">
             <img src="images/apps-img-a.png" alt="Apps-image">
@@ -309,19 +309,19 @@
         <div class="news-list">
           <ul class="list-items">
             <li>
-              <p>Google wants to help you find the nearest US voting <br>location</p>
+              <p>Google wants to help you find the nearest US voting </p>
             </li>
             <li>
-              <p>Google now lets you hum to find that song stuck in<br> your head</p>
+              <p>Google now lets you hum to find that song stuck in your head</p>
             </li>
             <li>
-              <p>Twitter confirms Holocaust denial is banned on its <br> platform, too</p>
+              <p>Twitter confirms Holocaust denial is banned on its platform, too</p>
             </li>
             <li>
-              <p>Netflix no longer offers a free trial -- pay up or fuck <br>off</p>
+              <p>Netflix no longer offers a free trial -- pay up or fuck </p>
             </li>
             <li>
-              <p>Facebook bans Holocaust denial posts, reversing <br> original stance</p>
+              <p>Facebook bans Holocaust denial posts, reversing original stance</p>
             </li>
           </ul>
         </div>
@@ -335,14 +335,14 @@
           <img src="images/gear-img.jpg" alt="popular-news-image">
           <div class="news-img-text">
             <span class="text-a">MOST POPULAR</span>
-            <p class="text-b">JBL L82 Classic review: These <br> retro speakers offer modern <br>acoustics</p>
+            <p class="text-b">JBL L82 Classic review: These > retro speakers offer modern acoustics</p>
             <span class="text-c">Napier Lopez . 17 hours ago</span>
           </div>
         </div>
         <div class="news-desc">
           <div class="text">
             <span>LATEST</span>
-            <p>Realme’s new phones give it <br> a REAL (sorry) chance in the <br> EU budget market</p>
+            <p>Realme’s new phones give it a REAL (sorry) chance in the EU budget market</p>
           </div>
           <div class="text-img">
             <img src="images/gear-img-a.png" alt="Apps-image">
@@ -351,19 +351,19 @@
         <div class="news-list">
           <ul class="list-items">
             <li>
-              <p>DJI's new Pocket 2 brings big updates to a little <br>camera</p>
+              <p>DJI's new Pocket 2 brings big updates to a little camera</p>
             </li>
             <li>
-              <p>JBL L82 Classic review: These retro speakers offer<br> modern acoustics</p>
+              <p>JBL L82 Classic review: These retro speakers offer modern acoustics</p>
             </li>
             <li>
-              <p>Google Assistant displays get a new UI, a dark<br> theme, and more features</p>
+              <p>Google Assistant displays get a new UI, a dark theme, and more features</p>
             </li>
             <li>
               <p>I loved the iPhone 12 event so much I hate it</p>
             </li>
             <li>
-              <p>OnePlus co-founder Carl Pei confirms he's leaving <br>the company</p>
+              <p>OnePlus co-founder Carl Pei confirms he's leaving the company</p>
             </li>
           </ul>
         </div>
@@ -376,14 +376,14 @@
           <img src="images/tech-img.png" alt="popular-news-image">
           <div class="news-img-text">
             <span class="text-a">MOST POPULAR</span>
-            <p class="text-b">Google sued by DOJ over<br> antitrust practices: What you <br>need to know</p>
+            <p class="text-b">Google sued by DOJ over> antitrust practices: What you need to know</p>
             <span class="text-c">RAchel Kaser . 14 hours ago</span>
           </div>
         </div>
         <div class="news-desc">
           <div class="text">
             <span>LATEST</span>
-            <p>The UK is about to start its <br>first test of 5G-enabled <br>autonomous vehicles</p>
+            <p>The UK is about to start its first test of 5G-enabled autonomous vehicles</p>
           </div>
           <div class="text-img">
             <img src="images/tech-img-a.png" alt="Apps-image">
@@ -392,19 +392,19 @@
         <div class="news-list">
           <ul class="list-items">
             <li>
-              <p>Why over-specialized developers are the root of all<br> evil</p>
+              <p>Why over-specialized developers are the root of all evil</p>
             </li>
             <li>
-              <p>How the new age spirituality of #manifestions can<br> make companies toxic</p>
+              <p>How the new age spirituality of #manifestions can make companies toxic</p>
             </li>
             <li>
-              <p>Google sued by DOJ over antitrust practices: What<br> you need to know</p>
+              <p>Google sued by DOJ over antitrust practices: What you need to know</p>
             </li>
             <li>
-              <p>Bored at home? Here's 10 handy tools you can build<br> with Python</p>
+              <p>Bored at home? Here's 10 handy tools you can build with Python</p>
             </li>
             <li>
-              <p>6 things you should know before choosing a web <br> hosting company</p>
+              <p>6 things you should know before choosing a web hosting company</p>
             </li>
           </ul>
         </div>
@@ -418,7 +418,7 @@
           <img src="images/creative-img.jpg" alt="popular-news-image">
           <div class="news-img-text">
             <span class="text-a">MOST POPULAR</span>
-            <p class="text-b">Graphic design apps are now <br>as fundamental as Excel —<br> here's how non-designers get
+            <p class="text-b">Graphic design apps are now as fundamental as Excel —> here's how non-designers get
               <br>up to speed</p>
             <span class="text-c">Rachel Kaser . 14 hours ago</span>
           </div>
@@ -426,7 +426,7 @@
         <div class="news-desc">
           <div class="text">
             <span>LATEST</span>
-            <p>This real-world multiplayer <br> game lets you spend other<br> people’s money — really</p>
+            <p>This real-world multiplayer game lets you spend other people’s money — really</p>
           </div>
           <div class="text-img">
             <img src="images/creative-img-a.png" alt="Apps-image">
@@ -435,19 +435,19 @@
         <div class="news-list">
           <ul class="list-items">
             <li>
-              <p>Warzone is infinitely more fun without vehicles (even <br> though it's just a bug</p>
+              <p>Warzone is infinitely more fun without vehicles (even though it's just a bug</p>
             </li>
             <li>
-              <p>The Winamp Skin Museum is a beautiful homage to<br> an iconic piece of software</p>
+              <p>The Winamp Skin Museum is a beautiful homage to an iconic piece of software</p>
             </li>
             <li>
-              <p>Why skin tone modifiers don't work for.explained <br>by an emoji historian </p>
+              <p>Why skin tone modifiers don't work for explained by an emoji historian </p>
             </li>
             <li>
-              <p>Why you need Design Thinking and Proofs of <br>Concept to level up your business</p>
+              <p>Why you need Design Thinking and Proofs of Concept to level up your business</p>
             </li>
             <li>
-              <p>How an AI graphic designer convinced clients it was <br> human</p>
+              <p>How an AI graphic designer convinced clients it was human</p>
             </li>
           </ul>
         </div>
@@ -460,14 +460,14 @@
           <img src="images/podlum-img.png" alt="popular-news-image">
           <div class="news-img-text">
             <span class="text-a">MOST POPULAR</span>
-            <p class="text-b">Mixed reality is perfect for our <br> innate multitasking habits</p>
+            <p class="text-b">Mixed reality is perfect for our > innate multitasking habits</p>
             <span class="text-c">Jared Ficklin . 28 days ago</span>
           </div>
         </div>
         <div class="news-desc">
           <div class="text">
             <span>LATEST</span>
-            <p>6 big data blunders <br>businesses should avoid</p>
+            <p>6 big data blunders businesses should avoid</p>
           </div>
           <div class="text-img">
             <img src="images/podlum-img-a.jpg" alt="Apps-image">
@@ -476,16 +476,16 @@
         <div class="news-list">
           <ul class="list-items">
             <li>
-              <p>The AI landscape is shifting from 'data' to <br>'knowledge.' Here's why that matters</p>
+              <p>The AI landscape is shifting from 'data' to 'knowledge.' Here's why that matters</p>
             </li>
             <li>
-              <p>Disruptive fintech is our best bet to economic <br> recovery post COVID-19</p>
+              <p>Disruptive fintech is our best bet to economic recovery post COVID-19</p>
             </li>
             <li>
-              <p>Tech in Latin America: An entrepreneur’s guide to <br>June’s startup news </p>
+              <p>Tech in Latin America: An entrepreneur’s guide to June’s startup news </p>
             </li>
             <li>
-              <p>4 ways to improve your latest product’s landing page<br> to guarantee conversion</p>
+              <p>4 ways to improve your latest product’s landing page to guarantee conversion</p>
             </li>
             <li>
               <p>Why our laws can't protect me from my digital stalker</p>
@@ -502,14 +502,14 @@
           <img src="images/insights-bitcoin.jpg" alt="Bitcoin image">
           <div class="news-img-text">
             <span class="text-a">MOST POPULAR</span>
-            <p class="text-b">PayPal to support Bitcoin and<br> other crypto — but merchants<br> must use fiat</p>
+            <p class="text-b">PayPal to support Bitcoin and other crypto — but merchants must use fiat</p>
             <span class="text-c">David Canellis . 2 hours ago</span>
           </div>
         </div>
         <div class="news-desc">
           <div class="text">
             <span>LATEST</span>
-            <p>Forget 'users' and focus on<br> the 7 steps to make your<br> organization 'memberful</p>
+            <p>Forget 'users' and focus on the 7 steps to make your organization 'memberful</p>
           </div>
           <div class="text-img">
             <img src="images/insights-latest.png" alt="Organization memberful">
@@ -521,16 +521,16 @@
               <p>Buying a used Tesla just became a lot less enticing</p>
             </li>
             <li>
-              <p>More than 50% of humans in the world use social<br> media — here's what you need to know</p>
+              <p>More than 50% of humans in the world use social media — here's what you need to know</p>
             </li>
             <li>
-              <p>UK finally closes the 'Candy Crush loophole' in its<br> driving laws</p>
+              <p>UK finally closes the 'Candy Crush loophole' in its driving laws</p>
             </li>
             <li>
-              <p>What is 'infrastructure as code' and why do you need<br> it?</p>
+              <p>What is 'infrastructure as code' and why do you need it?</p>
             </li>
             <li>
-              <p>The Pirate Bay blocked in the Netherlands again (but<br> you can still access it)</p>
+              <p>The Pirate Bay blocked in the Netherlands again (but you can still access it)</p>
             </li>
           </ul>
         </div>
@@ -544,14 +544,14 @@
           <img src="images/launch-popular.jpg" alt="Electric Hummer image">
           <div class="news-img-text">
             <span class="text-a">MOST POPULAR</span>
-            <p class="text-b">I’ve fallen for the electric<br> Hummer and I hate myself for<br> it</p>
+            <p class="text-b">I’ve fallen for the electric Hummer and I hate myself for it</p>
             <span class="text-c">Matthew Beedham . 2 hours ago</span>
           </div>
         </div>
         <div class="news-desc">
           <div class="text">
             <span>LATEST</span>
-            <p>Amazon's electric delivery<br> vans made by Rivian are<br> here, and they're pretty cut</p>
+            <p>Amazon's electric delivery vans made by Rivian are here, and they're pretty cut</p>
           </div>
           <div class="text-img">
             <img src="images/launch-latest.jpg" alt="Amazon's electric delivery van image">
@@ -563,16 +563,16 @@
               <p>This adorable little electric car is made of trash</p>
             </li>
             <li>
-              <p>Hyundai's first fuel cell-powered trucks arrive in<br> Switzerland — bye bye, diesel</p>
+              <p>Hyundai's first fuel cell-powered trucks arrive in Switzerland — bye bye, diesel</p>
             </li>
             <li>
-              <p>Lynk & Co.'s car sharing-owning scheme will never<br> cost more than €500 a month</p>
+              <p>Lynk & Co.'s car sharing-owning scheme will never cost more than €500 a month</p>
             </li>
             <li>
-              <p>Lucid unveils the Air, its luxury EV with up to 517-<br> miles of range costing as much as $169K</p>
+              <p>Lucid unveils the Air, its luxury EV with up to 517 miles of range costing as much as $169K</p>
             </li>
             <li>
-              <p>Say hello to SHIFT, our new publication about the<br> future of mobility tech</p>
+              <p>Say hello to SHIFT, our new publication about the future of mobility tech</p>
             </li>
           </ul>
         </div>
@@ -586,14 +586,14 @@
           <img src="images/distract-popular.jpg" alt="Reddit image">
           <div class="news-img-text">
             <span class="text-a">MOST POPULAR</span>
-            <p class="text-b">This app guesses your Myer-<br>Briggs personality based on<br> your Reddit history</p>
+            <p class="text-b">This app guesses your MyerBriggs personality based on your Reddit history</p>
             <span class="text-c">Mix . 8 days ago</span>
           </div>
         </div>
         <div class="news-desc">
           <div class="text">
             <span>LATEST</span>
-            <p>Pixar's 'Soul' will land on<br> Disney+ Christmas day, no<br> $30 fee required</p>
+            <p>Pixar's 'Soul' will land on Disney+ Christmas day, no $30 fee required</p>
           </div>
           <div class="text-img">
             <img src="images/distract-latest.png" alt="Pixar's 'Soul' movie image">
@@ -602,19 +602,19 @@
         <div class="news-list">
           <ul class="list-items">
             <li>
-              <p>Call of Duty: Warzone Season 6 riddled with crashes<br> and silly subway bugs</p>
+              <p>Call of Duty: Warzone Season 6 riddled with crashes and silly subway bugs</p>
             </li>
             <li>
-              <p>PSA: Call of Duty's Season 6 patch is 57GB —<br> better start downloading it now</p>
+              <p>PSA: Call of Duty's Season 6 patch is 57GB — better start downloading it now</p>
             </li>
             <li>
-              <p>Report: Disney+ adds Nick Fury to its lineup of<br> Marvel shows</p>
+              <p>Report: Disney+ adds Nick Fury to its lineup of Marvel shows</p>
             </li>
             <li>
-              <p>Call of Duty: Warzone's new subway is everything<br> we hoped the cargo train would be</p>
+              <p>Call of Duty: Warzone's new subway is everything we hoped the cargo train would be</p>
             </li>
             <li>
-              <p>The Lucid Air might have just beat Tesla’s Plaid<br> Model S round Laguna Seca</p>
+              <p>The Lucid Air might have just beat Tesla’s Plaid Model S round Laguna Seca</p>
             </li>
           </ul>
         </div>
@@ -623,7 +623,7 @@
 
       <!-- ================= Latest Deals Section ================= -->
 
-      <section class="latest-news">
+      <section class="latest-news latest-deals">
 
         <h2 class="deals-h2"><a href="#">Latest deals <i class="fas fa-angle-right"></i></a></h2>
         <p class="see-allDeals"><a href="#">See all Deals</a></p>
@@ -634,7 +634,7 @@
             <img src="images/latest-deals-1.jpg" alt="Excel bundle image">
             <div class="news-para">
               <p>
-                The Complete Excel Excellence<br> Bundle
+                The Complete Excel Excellence Bundle
               </p>
               <div class="costs">
                 <span class="deals-lastCost">$648</span>&nbsp;&nbsp;<span class="deals-newCost">$39.99</span>
@@ -646,7 +646,7 @@
             <img src="images/latest-deals-2.jpg" alt="Amazon FBA & Dropship bundle image">
             <div class="news-para">
               <p>
-                The Ultimate Amazon FBA &<br> Dropship Master Class Bundle
+                The Ultimate Amazon FBA & Dropship Master Class Bundle
               </p>
               <div class="costs">
                 <span class="deals-lastCost">$1292</span>&nbsp;&nbsp;<span class="deals-newCost">$39.99</span>
@@ -658,7 +658,7 @@
             <img src="images/latest-deals-3.jpg" alt="SyncPen 2nd Gen image">
             <div class="news-para">
               <p>
-                SyncPen 2nd Generation Smart<br> Pen with Notebook
+                SyncPen 2nd Generation Smart Pen with Notebook
               </p>
               <div class="costs">
                 <span class="deals-lastCost">$199</span>&nbsp;&nbsp;<span class="deals-newCost">$149.99</span>
@@ -670,7 +670,7 @@
             <img src="images/latest-deals-4.jpg" alt="Adobe Graphic Design image">
             <div class="news-para">
               <p>
-                The 2020 Adobe Graphic Design<br> Certification School
+                The 2020 Adobe Graphic Design Certification School
               </p>
               <div class="costs">
                 <span class="deals-lastCost">$1497</span>&nbsp;&nbsp;<span class="deals-newCost">$49</span>
@@ -682,7 +682,7 @@
             <img src="images/latest-deals-5.jpg" alt="Lean Six Sigma image">
             <div class="news-para">
               <p>
-                The Lean Six Sigma Career<br> Advancement Bundle
+                The Lean Six Sigma Career Advancement Bundle
               </p>
               <div class="costs">
                 <span class="deals-lastCost">$2500</span>&nbsp;&nbsp;<span class="deals-newCost">$39.99</span>
@@ -694,7 +694,7 @@
             <img src="images/latest-deals-6.jpg" alt="Python Certification image">
             <div class="news-para">
               <p>
-                The Complete Python Certification<br> Bootcamp Bundle
+                The Complete Python Certification Bootcamp Bundle
               </p>
               <div class="costs">
                 <span class="deals-lastCost">$2030</span>&nbsp;&nbsp;<span class="deals-newCost">$34.99</span>
@@ -706,7 +706,7 @@
             <img src="images/latest-deals-7.jpg" alt="Degoo Premium image">
             <div class="news-para">
               <p>
-                Degoo Premium: Lifetime 10TB<br> Backup Plan
+                Degoo Premium: Lifetime 10TB Backup Plan
               </p>
               <div class="costs">
                 <span class="deals-lastCost">$3600</span>&nbsp;&nbsp;<span class="deals-newCost">$99.99</span>
@@ -718,7 +718,7 @@
             <img src="images/latest-deals-8.png" alt="Tesla Model 3 image">
             <div class="news-para">
               <p>
-                250 Entries to Win a 2021 Tesla<br> Model 3 & Donate to Charity
+                250 Entries to Win a 2021 Tesla Model 3 & Donate to Charity
               </p>
               <div class="costs">
                 <span class="deals-lastCost">$25</span>&nbsp;&nbsp;<span class="deals-newCost">$25</span>
@@ -734,7 +734,7 @@
 
       <!--========================== Footer =============================-->
 
-    <footer>
+    <footer> 
 
       <div class="footer-top">
 

@@ -9,22 +9,32 @@ body {
   box-sizing: border-box;
 }
 
-.main {
-  padding-top: 47px;
+header {
+  position: sticky;
+  top: 0;
+  background: #fff;
+  z-index: 1;
+}
+
+.navbar {
+  display: flex;
+  border-bottom: 1px solid lightgrey;
+  width: 100%;
 }
 
 .navbar ul {
   display: flex;
   list-style-type: none;
+  box-sizing: border-box;
+  justify-content: flex-start;
   align-items: center;
-  border-bottom: 1px solid lightgrey;
-  margin: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: auto;
   padding: 0;
-  position: fixed;
-  top: 0;
-  background: #fff;
-  width: 360px;
-  z-index: 1;
+  
+
+ 
   box-shadow: 0 2px 2px -2px rgba(0,0,0,.2);
 }
 
@@ -33,18 +43,15 @@ body {
   width: 75px;
   background: #000;
   padding: 15px 18px;
-  margin-bottom: -5px;
 }
 
 .search-logo {
   box-sizing: border-box;
   font-size: 16px;
-  margin: 0 0 0 150px;
   border-right: 1px solid lightgray;
-  padding: 16px;
+  padding: 14px;
   color: gray;
   display: block;
-  height: 48px;
 }
 
 .ham-logo {
@@ -53,9 +60,8 @@ body {
   font-size: 20px;
   color: #ff4422;
   border-left: 1px solid lightgray;
-  padding: 16px;
+  padding: 12px;
   display: block;
-  height: 48px;
 }
 
 .img-flex-container {
@@ -105,15 +111,14 @@ color: gray;
   flex-direction: row;
 }
 
-.latest-news h2 {
+.latest h2 {
   font-family: "Avalon", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 25px;
   font-weight: 700;
-  margin-left: 10px;
   color: #ff4422;
 }
 
-.latest-news i {
+.latest-section i {
   margin-left: 5px;
 }
 
@@ -124,7 +129,6 @@ color: gray;
 .latest-news-flex img {
   height: 75px;
   width: 75px;
-  margin-left: 15px;
   margin-right: 10px;
 }
 
@@ -145,10 +149,11 @@ color: gray;
   font-size: 12px;
 }
 
+.latest,
 .funding-rounds,
-.news-section {
-  width: 330px;
-  margin: 30px auto;
+.news-section,
+.latest-deals {
+  margin: 40px 20px;
 }
 
 .funding-rounds h2,
@@ -274,7 +279,6 @@ color: gray;
 .news-section img {
   width: 100%;
   object-fit: cover;
-  height: 240px;
 }
 
 .news-section .news-img-text {
@@ -313,13 +317,13 @@ color: gray;
 }
 
 .news-desc .text {
-  width: 70%;
   color: #ff4422;
 }
 
 .text {
   margin-top: 10px;
   margin-left: 15px;
+  margin-right: ;
 }
 
 .text span {
@@ -337,16 +341,11 @@ color: gray;
   letter-spacing: .5px;
 }
 
-.news-desc .text-img {
-  width: 30%;
-}
-
-.text-img img {
-  height: 96px;
-}
-
 .news-desc .text-img img {
   object-fit: cover;
+  width: 96px;
+  height: 96px;
+  padding: 0;
 }
 
 .list-items li {
@@ -361,6 +360,11 @@ color: gray;
   font-family: "ARS Maquette", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #555;
   line-height: 1.4em;
+}
+
+.deals-h2,
+.see-allDeals {
+  box-sizing: border-box;
 }
 
 .deals-h2 a,
@@ -399,8 +403,8 @@ color: gray;
 
 .footer-flex-icons {
   display: flex;
-  justify-content: space-between;
-  width: 300px;
+  justify-content: center;
+  flex-wrap: wrap;
   padding-top: 20px;
 }
 
@@ -411,19 +415,22 @@ color: gray;
   padding: 10px;
   background: #3333;
   border-radius: 50%;
+  margin-right: 5px;
 }
 
 .footer-about .footer-aboutList {
   display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
   list-style: none;
 }
 
 .footer-about .footer-aboutList li {
-  margin-left: 15px;
+  margin-left: 5px;
 }
 
 .footer-about .footer-aboutList .footer-events {
-  margin-left: -40px;
+  margin-left: -20px;
 }
 
 .footer-about .footer-aboutList a {
