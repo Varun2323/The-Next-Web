@@ -1,0 +1,11 @@
+header .nav-mob {
+  display: none;
+}
+
+.nav-tab-1 ul,
+.nav-tab-2 ul {
+  display: flex;
+}
+
+
+
