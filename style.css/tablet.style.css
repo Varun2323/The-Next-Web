@@ -1,21 +1,74 @@
+@font-face {
+    font-family: "Avalon";
+    src: url(images/Avalon.ttf) format("ttf");
+  }
+
 body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-header .nav-mob {
-  display: none;
+nav > .mob,
+main,
+footer {
+    display: none;
+}
+nav > .tab-1 {
+    display: inline-block;
+    background-color: #131313;
+    width : 100%;
+    height:40px;
+}
+nav > .tab-1 {
+    display: flex;
+    justify-content: flex-start;
+    list-style: none;   
 }
 
-header .tablet-nav .nav-tab-1 ul,
-header .tablet-nav .nav-tab-2 ul {
-  display: flex;
+nav > .tab-2 {
+    display: flex;
+    justify-content: start;
+    border: 1px solid red;
+    height:45px;
 }
 
-header .nav-tab-logo {
-  height: 17px;
-  width: 75px;
-  background: #000;
-  padding: 15px 18px;
+nav > .tab-2 > ul {
+    display: flex;
+    justify-content: flex-start;
+}
+
+nav > .tab-2 > ul >li {
+    display: flex;
+ margin-left: 20px; 
+}
+
+nav > .tab-1 > .tab-a,
+nav > .tab-1 > .tab-b,
+nav > .tab-2 > ul {
+    display: flex;
+}
+
+nav > .tab-1 > .tab-b {
+    margin-left: auto;
+}
+
+nav > .tab-1 > .tab-a li,
+nav > .tab-1 > .tab-b li{
+    margin-left: 10px;
+    list-style: none;
+}
+
+nav > .tab-1 > .tab-b .contact{
+margin-right: 8px;
+}
+
+nav > .tab-1  a,
+nav > .tab-2  a{
+    text-decoration: none;
+    color: hsla(0,0%,100%,.6);
+}
+
+nav > .tab-2  a {
+    color : gray;
 }
