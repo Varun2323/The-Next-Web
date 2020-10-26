@@ -9,8 +9,7 @@ body {
   box-sizing: border-box;
 }
 
-.tab-1, 
-.tab-2 {
+.tab-1, .tab-2 {
   display: none;
 }
 
@@ -64,7 +63,9 @@ body {
   display: block;
 }
 
-.img-fle-container {
+/*************** Latest News Section ******************/
+
+.img-flex-container {
   display: flex;
   flex-direction: column;
 }
@@ -74,7 +75,8 @@ body {
   color: red;
 }
 
-.img-fle-item img {
+.img-fle-item img,
+.images-a img {
   height: 170px;
   width: 100%;
   object-fit: cover;
@@ -106,9 +108,8 @@ body {
   margin-top: 2px;
 }
 
-.latest-news .latest-news-flex {
+.latest-news-flex {
   display: flex;
-  flex-direction: row;
 }
 
 .latest h2 {
@@ -127,9 +128,9 @@ body {
 }
 
 .latest-news-flex img {
-
-width: 100%;
-margin-right: 10px;
+  height: 75px;
+  width: 75px;
+  margin-right: 10px;
 }
 
 .news-para {
@@ -153,6 +154,8 @@ margin-right: 10px;
   margin: 40px 20px;
 }
 
+/************* Latest Funding Rounds Section ************/
+
 .funding-rounds h2, .news-section h2 {
   font-family: "Avalon", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-weight: bolder;
@@ -174,10 +177,6 @@ margin-right: 10px;
 .funding-firstLines a {
   font-family: "ARS Maquette", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 14px;
-}
-
-.funding-box {
-  border-bottom: .1px solid #ff4422;
 }
 
 .funding-box img {
@@ -231,6 +230,7 @@ margin-right: 10px;
 
 .funding-icons {
   margin-bottom: 20px;
+  border-bottom: .1px solid #ff4422;
 }
 
 .funding-icons, .funding-lastLine {
@@ -269,9 +269,12 @@ margin-right: 10px;
   color: #aaa;
 }
 
+/***************** Articles with Lists section ******************/
+
 .news-section img {
   width: 100%;
   object-fit: cover;
+  position: relative;
 }
 
 .news-section .news-img-text {
