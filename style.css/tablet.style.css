@@ -13,7 +13,7 @@ body {
   box-sizing: border-box;
 }
 
-nav>.mob, footer {
+nav>.mob {
   display: none;
 }
 
@@ -57,27 +57,9 @@ nav .tab-2 {
   text-decoration: none;
 }
 
-/*nav>.tab-1>.tab-a, nav>.tab-1>.tab-b, nav>.tab-2>ul {
-  display: flex;
-}
-
-nav>.tab-1>.tab-b {
-  margin-left: auto;
-}*/
-
 .tab-a li, .tab-b li {
   margin-left: 10px;
   list-style: none;
-}
-
-/*nav>.tab-1>.tab-b .contact {
-  margin-right: 8px;
-}
-
-nav>.tab-1 a, nav>.tab-2 a {
-  text-decoration: none;
-  color: hsla(0, 0%, 100%, .6);*/
-
 }
 
 nav>.tab-2 a {

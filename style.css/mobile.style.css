@@ -282,6 +282,7 @@ body {
   font-family: "ARS Maquette", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin-top: -130px;
   margin-left: 10px;
+  margin-right: 10px;
 }
 
 .news-section .news-img-text .text-a {
@@ -293,10 +294,13 @@ body {
 .news-section .news-img-text .text-b {
   display: block;
   font-size: 22px;
+  width:450px;
+  height: auto;
   font-weight: 500;
   line-height: 22px;
   color: white;
   margin-top: 2px;
+  border: 1px solid red;
 }
 
 .news-section .news-img-text .text-c {
