@@ -1,0 +1,80 @@
+@font-face {
+  font-family: "Avalon";
+  src: url(images/Avalon.ttf) format("ttf");
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav > .mob, .tab-1 img {
+  display: none;
+}
+
+nav .tab-1,
+nav .tab-2 {
+  padding-left: 0;
+  margin-left: 0;
+}
+
+/*************** First three images Section ******************/
+
+.img-fle-item .images-a {
+  position: relative;
+}
+
+.img-fle-item .images-a .bigLogo {
+  position: absolute;
+  height: 220px; 
+  width: 150px;
+  top: 0;
+  padding: 20px 18px;
+  border: 5px solid blue;
+}
+
+.bigText-desk {
+  font-size: 100%;
+}
+
+/*************** Latest News Section ******************/
+
+.latest-news {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-column-gap: 1em;
+}
+
+/************* Latest Funding Rounds Section ************/
+
+.funding-rounds h2 {
+  float: left;
+}
+
+.funding-firstLines p {
+  float: right;
+  margin-top: 25px;
+  margin-bottom: 30px;
+  padding-right: 15px;
+}
+
+.funding-firstLines .fund-addInfo {
+  border-right: 1px solid #ff4422;
+}
+
+.funding-firstLines .fund-seeMore {
+  border-right: transparent;
+  padding-left: 15px;
+}
+
+.funding-grid {
+  clear: both;
+}
+
+/***************** Articles with Lists section ******************/
+
+.articles-lists {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}

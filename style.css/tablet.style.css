@@ -13,25 +13,28 @@ body {
   box-sizing: border-box;
 }
 
-nav>.mob {
+nav > .mob,
+.images-a .bigLogo {
   display: none;
 }
 
 .tab-1 img {
-    height: 85px;
-    padding: 10px 15px;
-    width: 105px;
-    background: #000;
-    position: absolute;
-    top :0;
-    left: 0;
-  } 
+  height: 85px;
+  padding: 10px 15px;
+  width: 105px;
+  background: #000;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
 
 nav .tab-1 {
   display: flex;
   justify-content: space-between;
   padding-left: 70px;
   background-color: #131313;
+  font-size: 13px;
+  font-family: "ARS Maquette", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   width: 100%;
   height: 40px;
   list-style: none;
@@ -39,7 +42,6 @@ nav .tab-1 {
 
 .tab-a, .tab-b {
   display: flex;
-  
 }
 
 .tab-b ul {
@@ -50,10 +52,11 @@ nav .tab-2 {
   display: flex;
   justify-content: space-between;
   padding-left: 100px;
-  border-bottom: 1px solid lightgray;
+  border-bottom: 1px solid #e3e3e3;
+  font-size: 14px;
+  font-family: "Shentox", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   height: 45px;
   width: 100%;
-  position: sticky;
 }
 
 .tab-2 ul {
@@ -68,12 +71,12 @@ nav .tab-2 {
 }
 
 .tab-a a, .tab-b a, .tab-2 a {
-  color: gray;
+  color: #aaa;
   text-decoration: none;
 }
 
-.tab-a .news  {
-    color: white;
+.tab-a .news {
+  color: white;
 }
 
 .tab-a li, .tab-b li {
@@ -82,19 +85,24 @@ nav .tab-2 {
 }
 
 .contact {
-    padding-right: 20px;
+  padding-right: 20px;
 }
 
 nav > .tab-2 a {
-  color: gray;
+  color: #aaa;
 }
 
 .searchIcon {
-    display: block;
-    padding: 10px;
-    border-left: 1px solid lightgray;
-    border-right: 1px solid lightgray;
+  display: block;
+  padding: 15px;
+  border-left: 1px solid #e3e3e3;
 }
+
+.tab-search-logo {
+  font-size: 17px;
+  color: #d4d4d4;
+}
+
 /*************** First three images Section ******************/
 
 .img-flex-container {
@@ -110,9 +118,9 @@ nav > .tab-2 a {
 }
 
 .img-fle-item img {
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
 }
 
 .grid-box-main {
@@ -126,20 +134,18 @@ nav > .tab-2 a {
   width: 100%;
 }
 
-.grid-box-main .images-a > img {
+.grid-box-main .images-a>img {
   width: 100%;
   height: 100%;
 }
 
-.images-b,
-.images-c {
+.images-b, .images-c {
   grid-column: 3/4;
   grid-row: 3/4;
 }
 
-.images-b img,
-.images-c img {
-    display: block;
+.images-b img, .images-c img {
+  display: block;
 }
 
 .img-fle-text {
@@ -162,8 +168,9 @@ nav > .tab-2 a {
 }
 
 .latest-news-flex img {
-  height: 130px;
+  height: auto;
   width: 100%;
+
   margin-right: 10px;
 }
 
@@ -210,10 +217,11 @@ nav > .tab-2 a {
 }
 
 /***************** Articles with Lists section ******************/
+
 .articles-lists {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-column-gap: 1em;
+  grid-column-gap: 1.2em;
   margin: 0 15px;
 }
 
@@ -223,13 +231,14 @@ nav > .tab-2 a {
 }
 
 .news-section .news-img-text {
-    position: absolute;
-    font-family: "ARS Maquette", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-top: -120px;
-    margin-left: 10px;
-    margin-right: 10px;
-    z-index: 2;
-  }
+  position: absolute;
+  font-family: "ARS Maquette", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: -120px;
+  margin-left: 10px;
+  margin-right: 10px;
+  z-index: 2;
+}
+
 /**************** Latest Deals Section ******************/
 
 .see-allDeals {

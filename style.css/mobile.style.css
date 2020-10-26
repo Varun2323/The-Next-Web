@@ -9,7 +9,9 @@ body {
   box-sizing: border-box;
 }
 
-.tab-1, .tab-2 {
+.tab-1, 
+.tab-2,
+.images-a .bigLogo {
   display: none;
 }
 
@@ -17,11 +19,12 @@ body {
   display: flex;
   border-bottom: 1px solid lightgrey;
   width: 100%;
-  position: sticky;
+  position: fixed;
   top: 0;
   margin: 0;
   background: #fff;
   z-index: 1;
+  box-shadow: 0 2px 2px 6px #e3e3e3;
 }
 
 .mob ul {
@@ -34,7 +37,6 @@ body {
   margin-bottom: 0;
   margin-left: auto;
   padding: 0;
-  box-shadow: 0 2px 2px -2px rgba(0, 0, 0, .2);
 }
 
 .mob img {
@@ -153,7 +155,7 @@ body {
   font-size: 12px;
 }
 
-.latest, .funding-rounds, .news-section, .latest-deals {
+.latest, .funding-rounds, .articles-lists, .latest-deals {
   margin: 40px 20px;
 }
 
@@ -280,7 +282,6 @@ body {
 .news-section img {
   width: 100%;
   object-fit: cover;
-  
 }
 
 .news-section .news-img-text {
@@ -367,6 +368,10 @@ body {
 }
 
 /**************** Latest Deals Section ******************/
+
+.latest-deals {
+  margin-bottom: 100px;
+}
 
 .deals-h2, .see-allDeals {
   box-sizing: border-box;
