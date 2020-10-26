@@ -19,15 +19,16 @@ nav>.mob {
 
 nav .tab-1 {
   display: flex;
+  justify-content: flex-end;
   background-color: #131313;
   width: 100%;
   height: 40px;
-  justify-content: flex-start;
   list-style: none;
 }
 
 .tab-a, .tab-b {
   display: flex;
+  
 }
 
 .tab-b ul {
@@ -36,16 +37,18 @@ nav .tab-1 {
 
 nav .tab-2 {
   display: flex;
+  justify-content: flex-start;
+  padding-left: 50px;
   border: 1px solid red;
   height: 45px;
-  justify-content: flex-start;
   width: 100%;
 }
 
 .tab-2 ul {
   display: flex;
+  margin-right: auto;
   list-style: none;
-  padding-left: 30px;
+  padding: 0 10px;
 }
 
 .tab-2 ul li {
@@ -66,16 +69,27 @@ nav>.tab-2 a {
   color: gray;
 }
 
+.searchIcon {
+    display: block;
+    border: 1px solid green;
+}
+
 .img-flex-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-column-gap: 5px;
+  grid-gap: 5px;
   margin: 5px 5px;
 }
 
 .img-fle-item {
   padding: 0;
   color: red;
+}
+
+.img-fle-item img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
 }
 
 .grid-box-main {
@@ -87,10 +101,9 @@ nav>.tab-2 a {
 .grid-box-main .images-a {
   height: 100%;
   width: 100%;
-  position: relative;
 }
 
-.grid-box-main .images-a>img {
+.grid-box-main .images-a > img {
   width: 100%;
   height: 100%;
 }
@@ -99,9 +112,11 @@ nav>.tab-2 a {
 .images-c {
   grid-column: 3/4;
   grid-row: 3/4;
-  height: 100%;
-  width: 100%;
-  border: 1px solid red;
+}
+
+.images-b img,
+.images-c img {
+    display: block;
 }
 
 .img-fle-text {
@@ -172,4 +187,15 @@ nav>.tab-2 a {
 
 .news-section {
   margin: 0;
+  position: relative;
+  border: 1px solid green;
 }
+
+.news-section .news-img-text {
+    position: absolute;
+    font-family: "ARS Maquette", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: -120px;
+    margin-left: 10px;
+    margin-right: 10px;
+    z-index: 2;
+  }

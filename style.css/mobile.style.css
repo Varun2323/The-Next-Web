@@ -270,11 +270,14 @@ body {
 }
 
 /***************** Articles with Lists section ******************/
+.news-section {
+  position: relative;
+}
 
 .news-section img {
   width: 100%;
   object-fit: cover;
-  position: relative;
+  
 }
 
 .news-section .news-img-text {
@@ -294,7 +297,6 @@ body {
 .news-section .news-img-text .text-b {
   display: block;
   font-size: 22px;
-  width:450px;
   height: auto;
   font-weight: 500;
   line-height: 22px;
