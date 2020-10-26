@@ -63,7 +63,7 @@ body {
   display: block;
 }
 
-/*************** Latest News Section ******************/
+/*************** First three images Section ******************/
 
 .img-flex-container {
   display: flex;
@@ -107,6 +107,8 @@ body {
   padding-top: 8px;
   margin-top: 2px;
 }
+
+/*************** Latest News Section ******************/
 
 .latest-news-flex {
   display: flex;
@@ -230,7 +232,7 @@ body {
 
 .funding-icons {
   margin-bottom: 20px;
-  border-bottom: .1px solid #ff4422;
+  border-bottom: 1px solid rgba(255,68,34,.25);
 }
 
 .funding-icons, .funding-lastLine {
@@ -245,7 +247,7 @@ body {
 }
 
 .funding-icons p {
-  font-size: 13px;
+  font-size: 12px;
   font-family: "ARS Maquette", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #555;
 }
@@ -262,7 +264,7 @@ body {
   font-size: 12px;
   font-family: "ARS Maquette", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #555;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 .funding-lastLine span {
@@ -362,6 +364,8 @@ body {
   line-height: 1.4em;
 }
 
+/**************** Latest Deals Section ******************/
+
 .deals-h2, .see-allDeals {
   box-sizing: border-box;
 }
@@ -383,15 +387,21 @@ body {
   margin-top: -10px;
 }
 
+.latest-news-flex .news-para p {
+  font-size: 17px;
+}
+
 .latest-news-flex .news-para .deals-lastCost {
-  font-size: 12px;
+  font-size: 15px;
   text-decoration-line: line-through;
 }
 
 .latest-news-flex .news-para .deals-newCost {
-  font-size: 14px;
+  font-size: 17px;
   color: #555;
 }
+
+/**************** Footer ******************/
 
 .footer-top {
   margin: 40px 0 0 0;

@@ -66,6 +66,8 @@ nav>.tab-2 a {
   color: gray;
 }
 
+/*************** First three images Section ******************/
+
 .img-flex-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -124,7 +126,7 @@ nav>.tab-2 a {
 }
 
 .latest-news-flex img {
-  height: 128px;
+  height: auto;
   width: 100%;
   margin-right: 10px;
 }
@@ -139,15 +141,24 @@ nav>.tab-2 a {
   border-right: 1px solid #ff4422;
 }
 
-.funding-firstLines .fund-noBorder {
+.funding-firstLines a {
+  font-size: 16px;
+}
+
+.funding-firstLines .fund-updates {
+  padding-left: 15px;
+}
+
+.funding-firstLines .fund-addInfo {
   border-right: transparent;
+  padding-left: 15px;
 }
 
 .funding-grid {
   clear: left;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-column-gap: .1em;
+  grid-column-gap: 1em;
 }
 
 .fund-redTop {
@@ -172,4 +183,14 @@ nav>.tab-2 a {
 
 .news-section {
   margin: 0;
+}
+
+/**************** Latest Deals Section ******************/
+
+.see-allDeals {
+  font-size: 16px;
+}
+
+.news-para {
+  margin-top: -5px;
 }
