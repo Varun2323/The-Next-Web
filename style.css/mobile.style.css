@@ -38,7 +38,7 @@ body {
 }
 
 .mob img {
-  height: 17px;
+  height: 17px; 
   width: 75px;
   background: #000;
   padding: 15px 18px;
@@ -74,6 +74,7 @@ body {
   padding: 10px 10px 0 10px;
   color: red;
 }
+
 
 .img-fle-item img,
 .images-a img {
@@ -304,7 +305,6 @@ body {
   line-height: 22px;
   color: white;
   margin-top: 2px;
-  border: 1px solid red;
 }
 
 .news-section .news-img-text .text-c {

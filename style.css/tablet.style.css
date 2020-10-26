@@ -17,9 +17,20 @@ nav>.mob {
   display: none;
 }
 
+.tab-1 img {
+    height: 85px;
+    padding: 10px 15px;
+    width: 105px;
+    background: #000;
+    position: absolute;
+    top :0;
+    left: 0;
+  } 
+
 nav .tab-1 {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
+  padding-left: 70px;
   background-color: #131313;
   width: 100%;
   height: 40px;
@@ -37,11 +48,12 @@ nav .tab-1 {
 
 nav .tab-2 {
   display: flex;
-  justify-content: flex-start;
-  padding-left: 50px;
-  border: 1px solid red;
+  justify-content: space-between;
+  padding-left: 100px;
+  border-bottom: 1px solid lightgray;
   height: 45px;
   width: 100%;
+  position: sticky;
 }
 
 .tab-2 ul {
@@ -60,18 +72,28 @@ nav .tab-2 {
   text-decoration: none;
 }
 
+.tab-a .news  {
+    color: white;
+}
+
 .tab-a li, .tab-b li {
   margin-left: 10px;
   list-style: none;
 }
 
-nav>.tab-2 a {
+.contact {
+    padding-right: 20px;
+}
+
+nav > .tab-2 a {
   color: gray;
 }
 
 .searchIcon {
     display: block;
-    border: 1px solid green;
+    padding: 10px;
+    border-left: 1px solid lightgray;
+    border-right: 1px solid lightgray;
 }
 /*************** First three images Section ******************/
 
@@ -140,7 +162,7 @@ nav>.tab-2 a {
 }
 
 .latest-news-flex img {
-  height: auto;
+  height: 130px;
   width: 100%;
   margin-right: 10px;
 }
@@ -198,7 +220,6 @@ nav>.tab-2 a {
 .news-section {
   margin: 0;
   position: relative;
-  border: 1px solid green;
 }
 
 .news-section .news-img-text {
