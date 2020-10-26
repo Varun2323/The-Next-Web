@@ -127,9 +127,9 @@ body {
 }
 
 .latest-news-flex img {
-  height: 75px;
-  width: 75px;
-  margin-right: 10px;
+
+width: 100%;
+margin-right: 10px;
 }
 
 .news-para {
