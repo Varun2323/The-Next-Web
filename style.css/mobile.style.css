@@ -9,6 +9,10 @@ body {
   box-sizing: border-box;
 }
 
+main .logo-B {
+  display: none;
+} 
+
 .tab-1, 
 .tab-2,
 .images-a > .bigLogo {
@@ -23,7 +27,6 @@ body {
   top: 0;
   background: #fff;
   z-index: 2;
-  /*box-shadow: 0 2px 2px 6px #e3e3e3;*/
 }
 
 .mob ul {
@@ -93,8 +96,11 @@ nav img {
   width: auto;
 }
 
-.img-fle-item img,
-.images-a img {
+.img-fle-item {
+  position: relative;
+}
+
+.img-fle-item img {
   height: 170px;
   width: 100%;
   object-fit: cover;
@@ -107,7 +113,7 @@ nav img {
 }
 
 .big-text {
-  font-size: 20px;
+  font-size: 19px;
   font-family: "Avalon", sans-serif, 'Times New Roman', Times, serif;
   font-weight: 600;
   margin-bottom: -20px;
@@ -117,21 +123,17 @@ nav img {
 .img-fle-text .para-bottom {
   font-size: 14px;
   color: #ffffff99;
-}
-
-.img-fle-text span>i {
-  font-size: 16px;
-  color: #ffffff99;
-  padding-top: 8px;
-  margin-top: 2px;
-  padding-top: 10px;
-  color: hsla(0,0%,100%,.6);
+  margin-top: 30px;
 }
 
 .img-fle-text .img-icons {
   font-size: 16px; 
   vertical-align: middle;
   color: hsla(0,0%,100%,.6);
+}
+
+.big-side-a {
+  margin-top: 50px;
 }
 
 /*************** Latest News Section ******************/

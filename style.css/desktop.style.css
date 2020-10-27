@@ -10,19 +10,27 @@ body {
 }
 
 
-nav .tab-1 {
-  display: none;
+nav img {
+   display: none; 
 }
 
-nav img {
-  height: 45px;
-  padding: 10px 15px;
-  width: 105px;
-  background: #000;
-  position: absolute;
-  top: 0;
-  left: 0;
+nav .tab-1 {
+  display: flex;
+  justify-content: space-between;
 }
+
+.news {
+  margin-left: 0;
+  border: 1px solid red;
+}
+ main .logo-B {
+  display: inline-block;
+  width: 450px;
+  position: absolute;
+  top: 120px;
+  left: 20px;
+  z-index: 1
+} 
 
 .tab-2 ul .extra-a,
 .tab-2 ul .extra-b {
@@ -49,18 +57,6 @@ nav img {
   position: relative;
 }
 
-.bigLogo{
-  height: 200px; 
-  width: 100px;
-  position: absolute;
-  padding: 30px 18px;
-  background: purple;
-  border: 1px solid green;
-}
-
-.bigText-desk {
-  font-size: 100%;
-}
 
 /*************** Latest News Section ******************/
 
@@ -103,10 +99,9 @@ nav img {
   grid-template-columns: repeat(3, 1fr);
 }
 
-.bigText-desk  {
+.bigText-desk {
   color: white;
-  font-size: 40px;
-  margin-top: -10px;
+  margin-top: 0;
 }
 
 .big-side-a {
