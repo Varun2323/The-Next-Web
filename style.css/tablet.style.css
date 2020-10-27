@@ -18,6 +18,10 @@ nav > .mob,
   display: none;
 }
 
+main .logo-B {
+  display: none;
+} 
+
 nav img {
   height: 85px;
   padding: 10px 15px;
@@ -176,8 +180,8 @@ nav > .tab-2 a {
 
 .bigText-desk  {
   color: white;
-  font-size: 35px;
-  margin-top: -40px;
+  font-size: 32px;
+  margin-top: -17px;
 }
 
 .big-side-a {
@@ -250,6 +254,22 @@ nav > .tab-2 a {
   grid-template-columns: repeat(2, 1fr);
   grid-column-gap: 1.2em;
   margin: 0 15px;
+}
+
+.news-gradient {
+  position: relative;
+}
+
+.art-gradient-b {
+  background: linear-gradient(to top, rgba(0,0,0,.2), rgba(255,255,255,.1)) no-repeat;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 347px;
+  left: 0;
+  height: auto;
+  width: auto;
+  z-index: 2;
 }
 
 .news-section {
