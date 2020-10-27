@@ -76,6 +76,10 @@ nav img {
   margin-top: 45px;
 }
 
+.img-flex-container a {
+  text-decoration: none;
+}
+
 .img-fle-item {
   padding: 10px 10px 0 10px;
   color: red;
@@ -119,6 +123,10 @@ nav img {
   color: #ffffff99;
 }
 
+.img-author:hover {
+  color: white;
+}
+
 .img-fle-text span>i {
   font-size: 16px;
   color: #ffffff99;
@@ -138,6 +146,14 @@ nav img {
 
 .latest-news-flex {
   display: flex;
+}
+
+.latest a {
+  text-decoration: none;
+}
+
+.latest-h2 h2:hover {
+  color: #000;
 }
 
 .latest h2 {
