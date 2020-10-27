@@ -25,13 +25,14 @@ nav .tab-2 {
   position: relative;
 }
 
-.img-fle-item .images-a .bigLogo {
+.img-fle-item .images-a > .bigLogo {
   position: absolute;
   height: 220px; 
   width: 150px;
   top: 0;
   padding: 20px 18px;
-  border: 5px solid blue;
+  background: purple;
+  z-index: 3;
 }
 
 .bigText-desk {
