@@ -23,7 +23,7 @@ nav img {
   padding: 10px 15px;
   width: 105px;
   background: #000;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
 }
@@ -57,8 +57,10 @@ nav .tab-2 {
   font-family: "Shentox", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   height: 45px;
   width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 4;
 }
-
 
 .tab-2 ul {
   display: flex;
@@ -125,7 +127,7 @@ nav > .tab-2 a {
 
 .img-grad-a,
 .img-grad-b {
-  background: linear-gradient(to bottom, rgba(0,0,0,.25)) no-repeat;
+  background: rgba(0,0,0,.25) no-repeat;
   position: absolute;
   right: 0;
   left: 0;

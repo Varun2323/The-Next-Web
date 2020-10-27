@@ -35,16 +35,27 @@ nav img {
   position: relative;
 }
 
-.img-fle-item .images-a > .bigLogo {
-
-.img-fle-item .images-a .bigLogo {
+.img-grad-a {
+  background: linear-gradient(to top, rgba(0,0,0,.2), rgba(255, 99, 71, 0.5)) no-repeat;
   position: absolute;
-  height: 220px; 
-  width: 150px;
+  right: 0;
+  left: 0;
   top: 0;
-  padding: 20px 18px;
+  height: auto;
+  width: auto;
+}
+
+.images-a {
+  position: relative;
+}
+
+.bigLogo{
+  height: 200px; 
+  width: 100px;
+  position: absolute;
+  padding: 30px 18px;
   background: purple;
-  z-index: 3;
+  border: 1px solid green;
 }
 
 .bigText-desk {

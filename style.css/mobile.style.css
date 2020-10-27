@@ -21,9 +21,8 @@ body {
   width: 100%;
   position: fixed;
   top: 0;
-
   background: #fff;
-  z-index: 5;
+  z-index: 2;
   /*box-shadow: 0 2px 2px 6px #e3e3e3;*/
 }
 
@@ -44,10 +43,10 @@ nav img {
   width: 75px;
   background: #000;
   padding: 15px 18px;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
-  z-index: 2;
+  z-index: 3;
 }
 
 .search-logo {
@@ -92,7 +91,6 @@ nav img {
   bottom: 0;
   height: 170px;
   width: auto;
-  border: 1px solid blue;
 }
 
 .img-fle-item img,
@@ -300,8 +298,22 @@ nav img {
 }
 
 /***************** Articles with Lists section ******************/
+
 .news-section {
   position: relative;
+}
+
+.articles-gradient {
+  background: linear-gradient(to top, rgba(0,0,0,.2), rgba(255,255,255,.1)) no-repeat;
+  position: absolute;
+  top: 50px;
+  right: 0;
+  bottom: 333px;
+  left: 0;
+  height: auto;
+  width: auto;
+  z-index: 1;
+  border: 1px blue solid;
 }
 
 .news-section img {
