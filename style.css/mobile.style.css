@@ -39,11 +39,15 @@ body {
   padding: 0;
 }
 
-.mob img {
-  height: 17px; 
+nav img {
+  height: 15px; 
   width: 75px;
   background: #000;
   padding: 15px 18px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
 }
 
 .search-logo {
@@ -122,6 +126,14 @@ body {
   color: #ffffff99;
   padding-top: 8px;
   margin-top: 2px;
+  padding-top: 10px;
+  color: hsla(0,0%,100%,.6);
+}
+
+.img-fle-text .img-icons {
+  font-size: 16px; 
+  vertical-align: middle;
+  color: hsla(0,0%,100%,.6);
 }
 
 /*************** Latest News Section ******************/

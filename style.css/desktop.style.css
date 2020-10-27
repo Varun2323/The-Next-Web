@@ -9,23 +9,35 @@ body {
   box-sizing: border-box;
 }
 
-nav > .mob, .tab-1 img {
+
+nav .tab-1 {
   display: none;
 }
 
-nav .tab-1,
-nav .tab-2 {
-  padding-left: 0;
-  margin-left: 0;
+nav img {
+  height: 45px;
+  padding: 10px 15px;
+  width: 105px;
+  background: #000;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.tab-2 ul .extra-a,
+.tab-2 ul .extra-b {
+  display: flex;
 }
 
 /*************** First three images Section ******************/
 
-.img-fle-item .images-a {
+.grid-box-main {
   position: relative;
 }
 
 .img-fle-item .images-a > .bigLogo {
+
+.img-fle-item .images-a .bigLogo {
   position: absolute;
   height: 220px; 
   width: 150px;
@@ -78,4 +90,18 @@ nav .tab-2 {
 .articles-lists {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+}
+
+.bigText-desk  {
+  color: white;
+  font-size: 40px;
+  margin-top: -10px;
+}
+
+.big-side-a {
+  margin-top: 70px;
+}
+
+.big-side-b {
+  margin-top: 40px;
 }

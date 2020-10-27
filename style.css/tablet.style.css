@@ -18,7 +18,7 @@ nav > .mob,
   display: none;
 }
 
-.tab-1 img {
+nav img {
   height: 85px;
   padding: 10px 15px;
   width: 105px;
@@ -59,11 +59,17 @@ nav .tab-2 {
   width: 100%;
 }
 
+
 .tab-2 ul {
   display: flex;
   margin-right: auto;
   list-style: none;
   padding: 0 10px;
+}
+
+.tab-2 ul .extra-a,
+.tab-2 ul .extra-b {
+  display: none;
 }
 
 .tab-2 ul li {
@@ -166,6 +172,15 @@ nav > .tab-2 a {
   margin-right: 10px;
 }
 
+.bigText-desk  {
+  color: white;
+  font-size: 35px;
+  margin-top: -40px;
+}
+
+.big-side-a {
+  margin-top: 50px;
+}
 /*************** Latest News Section ******************/
 
 .latest-news {
