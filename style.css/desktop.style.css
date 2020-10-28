@@ -30,30 +30,15 @@ nav .tab-2{
   margin-left: 0
 }
 
-
- main .logo-B {
-  display: inline-block;
-  width: 450px;
-  position: absolute;
-  top: 120px;
-  left: 20px;
-  z-index: 1;
-} 
-
-.main {
+.grid-box-main {
   position: relative;
 }
 
-.date {
-  color: red; 
-  font-weight: 600;
-  top: 150px;
-  position: absolute;
-  font-size: 25px;
-  border: 1px solid red;
-  font-family: "ARS Maquette", sans-serif, 'Times New Roman', Times, serif;
-  z-index:1;
+ .logo-desk{
+  display:flex;
+  justify-content: flex-start;
 }
+
 
 .tab-2 ul .extra-a,
 .tab-2 ul .extra-b {
