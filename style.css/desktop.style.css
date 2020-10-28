@@ -43,14 +43,17 @@ nav .tab-2{
 
 /*************** First three images Section ******************/
 
+.img-flex-container {
+  margin: 5px 5px 0 5px;
+}
+
 .grid-box-main {
   position: relative;
 }
 
-.grid-box-main,
-.grid-side-box{
-  margin-top: 85px;
-}
+.grid-box-main, .grid-side-box-a { 
+  margin-top: 85px; 
+} 
 
 .img-grad-a {
   background: linear-gradient(to top, rgba(0,0,0,.2), rgba(255, 99, 71, 0.5)) no-repeat;
@@ -66,6 +69,21 @@ nav .tab-2{
   position: relative;
 }
 
+.bigText-desk {
+  color: white;
+  margin-top: 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 50px;
+}
+
+.big-side-a {
+  margin-top: 70px;
+}
+
+.big-side-b {
+  margin-top: 40px;
+}
 
 /*************** Latest News Section ******************/
 
@@ -75,15 +93,20 @@ nav .tab-2{
   grid-column-gap: 1em;
 }
 
+.latest {
+  padding-top: 300px;
+}
+
 /************* Latest Funding Rounds Section ************/
 
-.funding-rounds h2 {
+.fund-h2 {
   float: left;
+  margin-bottom: 0;
 }
 
 .funding-firstLines p {
   float: right;
-  margin-top: 25px;
+  margin-top: 28px;
   margin-bottom: 30px;
   padding-right: 15px;
 }
@@ -106,17 +129,4 @@ nav .tab-2{
 .articles-lists {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-}
-
-.bigText-desk {
-  color: white;
-  margin-top: 0;
-}
-
-.big-side-a {
-  margin-top: 70px;
-}
-
-.big-side-b {
-  margin-top: 40px;
 }
