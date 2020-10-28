@@ -15,7 +15,7 @@ main .logo-B {
 
 .tab-1, 
 .tab-2,
-.images-a > .bigLogo {
+.img-fle-item .bigLogo{
   display: none;
 }
 
@@ -125,6 +125,7 @@ nav img {
   margin-left: 10px;
 }
 
+  
 .big-text {
   font-size: 19px;
   font-family: "Avalon", sans-serif, 'Times New Roman', Times, serif;
@@ -135,7 +136,7 @@ nav img {
 .img-fle-text .para-bottom {
   font-family: "ARS Maquette", sans-serif, 'Times New Roman', Times, serif;
   margin-top: -10px;
-  font-size: 14px;
+  font-size: 12px;
   color: #ffffff99;
 }
 

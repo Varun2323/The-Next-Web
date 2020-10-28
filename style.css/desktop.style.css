@@ -20,6 +20,10 @@ nav .tab-1 {
   padding-left: 0;
 }
 
+.tab-1 .news {
+  margin-left: 5px;
+}
+
 nav .tab-1 .tab-a,
 nav .tab-2{
   padding-left: 0;
@@ -33,8 +37,23 @@ nav .tab-2{
   position: absolute;
   top: 120px;
   left: 20px;
-  z-index: 1
+  z-index: 1;
 } 
+
+.main {
+  position: relative;
+}
+
+.date {
+  color: red; 
+  font-weight: 600;
+  top: 150px;
+  position: absolute;
+  font-size: 25px;
+  border: 1px solid red;
+  font-family: "ARS Maquette", sans-serif, 'Times New Roman', Times, serif;
+  z-index:1;
+}
 
 .tab-2 ul .extra-a,
 .tab-2 ul .extra-b {
@@ -69,17 +88,6 @@ nav .tab-2{
   position: relative;
 }
 
-.bigText-desk {
-  color: white;
-  margin-top: 0;
-  font-size: 48px;
-  font-weight: 700;
-  line-height: 50px;
-}
-
-.big-side-a {
-  margin-top: 70px;
-}
 
 .big-side-b {
   margin-top: 40px;
@@ -93,9 +101,6 @@ nav .tab-2{
   grid-column-gap: 1em;
 }
 
-.latest {
-  padding-top: 300px;
-}
 
 /************* Latest Funding Rounds Section ************/
 
