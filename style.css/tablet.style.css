@@ -42,6 +42,9 @@ nav .tab-1 {
   width: 100%;
   height: 40px;
   list-style: none;
+  position: fixed;
+  top:0;
+  z-index: 2;
 }
 
 .tab-a, .tab-b {
@@ -61,9 +64,10 @@ nav .tab-2 {
   font-family: "Shentox", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   height: 45px;
   width: 100%;
-  position: sticky;
-  top: 0;
-  z-index: 4;
+  background-color: white;;
+  position: fixed;
+  margin-top: 35px;
+  z-index: 2;
 }
 
 .tab-2 ul {

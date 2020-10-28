@@ -17,11 +17,16 @@ nav img {
 nav .tab-1 {
   display: flex;
   justify-content: space-between;
+  padding-left: 0;
 }
 
-.news {
-  margin-left: 0;
+nav .tab-1 .tab-a,
+nav .tab-2{
+  padding-left: 0;
+  margin-left: 0
 }
+
+
  main .logo-B {
   display: inline-block;
   width: 450px;
@@ -40,6 +45,11 @@ nav .tab-1 {
 
 .grid-box-main {
   position: relative;
+}
+
+.grid-box-main,
+.grid-side-box{
+  margin-top: 85px;
 }
 
 .img-grad-a {

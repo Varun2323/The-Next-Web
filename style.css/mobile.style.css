@@ -86,21 +86,10 @@ nav img {
 .img-fle-item {
   padding: 10px 10px 0 10px;
   color: red;
-  position: relative;
+   border: 1px solid blue;
 }
 
-.img-gradient {
-  background: rgba(0,0,0,.25) no-repeat;
-  position: absolute;
-  right: 9px;
-  left: 9px;
-  top: 9px;
-  bottom: 0;
-  height: 170px;
-  width: auto;
-}
-
-.img-fle-item {
+.img-fle-item .images-a {
   position: relative;
 }
 
@@ -110,10 +99,13 @@ nav img {
   object-fit: cover;
 }
 
+
 .img-fle-text {
   position: absolute;
   margin-top: -100px;
+  margin-right: 10px;
   margin-left: 10px;
+  border: 1px solid red;
 }
 
 .big-text {
@@ -150,7 +142,11 @@ nav img {
 }
 
 .big-side-a {
-  margin-top: 50px;
+  margin-top: 40px;
+}
+
+.big-side-b {
+  margin-top: 0px;
 }
 
 /*************** Latest News Section ******************/
@@ -348,23 +344,11 @@ nav img {
 
 /***************** Articles with Lists section ******************/
 
-.news-section,
+
 .news-img {
   position: relative;
 }
 
-.articles-gradient {
-  background: linear-gradient(to top, rgba(0,0,0,.2), rgba(255,255,255,.1)) no-repeat;
-  position: absolute;
-  top: 50px;
-  right: 0;
-  bottom: 333px;
-  left: 0;
-  height: auto;
-  width: auto;
-  z-index: 1;
-  border: 1px blue solid;
-}
 
 .news-section img {
   width: 100%;
@@ -377,6 +361,7 @@ nav img {
   margin-top: -130px;
   margin-left: 10px;
   margin-right: 10px;
+  border: 1px solid red;
 }
 
 .news-section a:hover {
