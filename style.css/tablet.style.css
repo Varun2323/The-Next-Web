@@ -10,7 +10,8 @@ body {
 
 nav > .mob,
 .grid-box-main .logo-B,
-.grid-box-main .date {
+.grid-box-main .date,
+.footer-lastText br {
   display: none;
 }
 
@@ -242,7 +243,9 @@ nav > .tab-2 a {
 
 .funding-firstLines p {
   float: left;
-  margin: 0 15px 30px 0;
+  margin-top: -10px;
+  margin-bottom: 20px;
+  padding-right: 15px;
   border-right: 1px solid #f42;
 }
 
