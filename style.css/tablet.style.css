@@ -2,11 +2,6 @@
   box-sizing: border-box;
 }
 
-@font-face {
-  font-family: "Avalon";
-  src: url(images/Avalon.ttf) format("ttf");
-}
-
 body {
   margin: 0;
   padding: 0;
@@ -14,7 +9,8 @@ body {
 }
 
 nav > .mob,
-.images-a > .bigLogo {
+.grid-box-main .logo-B,
+.grid-box-main .date {
   display: none;
 }
 
@@ -57,11 +53,11 @@ nav .tab-2 {
   justify-content: space-between;
   padding-left: 100px;
   border-bottom: 1px solid #e3e3e3;
-  font-size: 14px;
+  font-size: 13px;
   font-family: "Shentox", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   height: 45px;
   width: 100%;
-  background-color: white;;
+  background-color: #fff;;
   position: fixed;
   margin-top: 35px;
   z-index: 3;
@@ -81,6 +77,7 @@ nav .tab-2 {
 
 .tab-2 ul li {
   padding: 0 5px;
+  margin-right: 10px;
 }
 
 .tab-a a, .tab-b a, .tab-2 a {
@@ -88,8 +85,17 @@ nav .tab-2 {
   text-decoration: none;
 }
 
+.tab-a a:hover, 
+.tab-b a:hover {
+  color: #fff;
+} 
+
+.tab-2 a:hover {
+  color: #000;
+}
+
 .tab-a .news {
-  color: white;
+  color: #fff;
 }
 
 .tab-a li, .tab-b li {
@@ -116,6 +122,9 @@ nav > .tab-2 a {
   color: #d4d4d4;
 }
 
+.tab-search-logo:hover {
+  color: #575757;
+}
 /*************** First three images Section ******************/
 
 .img-flex-container {
@@ -128,7 +137,6 @@ nav > .tab-2 a {
 .grid-box-main, .grid-side-box-a { 
   margin-top: 85px; 
 } 
-
 
 .img-fle-item {
   padding: 0;
@@ -177,7 +185,6 @@ nav > .tab-2 a {
   display: block;
 }
 
-
 .img-fle-text {
   position: absolute;
   margin-top: -120px;
@@ -186,7 +193,7 @@ nav > .tab-2 a {
 }
 
 .bigText-desk  {
-  color: white;
+  color: #fff;
   font-size: 35px;
   font-weight: 700;
   line-height: 40px;
@@ -267,18 +274,6 @@ nav > .tab-2 a {
 
 .news-gradient {
   position: relative;
-}
-
-.art-gradient-b {
-  background: linear-gradient(to top, rgba(0,0,0,.2), rgba(255,255,255,.1)) no-repeat;
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 347px;
-  left: 0;
-  height: auto;
-  width: auto;
-  z-index: 2;
 }
 
 .news-section {

@@ -1,21 +1,13 @@
-@font-face {
-  font-family: "Avalon";
-  src: url(images/Avalon.ttf) format("ttf");
-}
-
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-main .logo-B {
-  display: none;
-} 
-
 .tab-1, 
 .tab-2,
-.img-fle-item .bigLogo{
+.grid-box-main .logo-B,
+.grid-box-main .date {
   display: none;
 }
 
@@ -35,9 +27,7 @@ main .logo-B {
   box-sizing: border-box;
   justify-content: flex-start;
   align-items: center;
-  margin-top: 0;
-  margin-bottom: 0;
-  margin-left: auto;
+  margin: 0 0 0 auto;
   padding: 0;
 }
 
@@ -59,6 +49,11 @@ nav img {
   padding: 14px;
   color: gray;
   display: block;
+}
+
+.search-logo:hover {
+  color: #575757;
+  cursor: pointer;
 }
 
 .ham-logo {
@@ -120,28 +115,27 @@ nav img {
 
 .img-fle-text {
   position: absolute;
-  margin-bottom: 5px;
   margin-right: 10px;
   margin-left: 10px;
 }
-
   
 .big-text {
   font-size: 19px;
   font-family: "Avalon", sans-serif, 'Times New Roman', Times, serif;
   font-weight: 600;
-  color: white;
+  color: #fff;
 }
 
 .img-fle-text .para-bottom {
   font-family: "ARS Maquette", sans-serif, 'Times New Roman', Times, serif;
-  margin-top: -10px;
+  margin-top: -5px;
   font-size: 12px;
   color: #ffffff99;
+  overflow: hidden;
 }
 
 .img-author:hover {
-  color: white;
+  color: #fff;
 }
 
 .img-fle-text .img-icons {
@@ -233,7 +227,7 @@ nav img {
 }
 
 .fund-h2:hover {
-  color: black;
+  color: #000;
 }
 
 .funding-rounds a, .news-section a {
@@ -314,7 +308,7 @@ nav img {
 }
 
 .funding-icons p:hover {
-  color: black;
+  color: #000;
 }
 
 .funding-icons, .funding-lastLine {
@@ -362,6 +356,20 @@ nav img {
   position: relative;
 }
 
+.news-gradient {
+  position: relative;
+}
+
+.news-gradient::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to top, rgba(0,0,0,1), rgba(255,255,255,.1)) no-repeat;
+}
+
 .news-section h2 a:hover {
   color: #000;
 }
@@ -388,7 +396,7 @@ nav img {
   font-size: 14px;
   font-family: "Shentox", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-weight: 500;
-  color: white;
+  color: #fff;
 }
 
 .text-b a {
@@ -398,7 +406,7 @@ nav img {
   height: auto;
   font-weight: 700;
   line-height: 22px;
-  color: white;
+  color: #fff;
   margin-top: -10px;
 }
 
@@ -423,20 +431,19 @@ nav img {
 }
 
 .news-desc {
+  height: auto;
   display: flex;
   justify-content: space-between;
+  align-items: flex-start;
   background: rgba(255, 68, 34, .08);
-  margin-top: -2px
-}
-
-.news-desc .text {
-  color: #ff4422;
+  margin: 2px 0 10px 0;
+  padding: 0;
 }
 
 .text {
-  margin-top: 10px;
-  margin-left: 15px;
-  margin-right: 10px;
+  color: #ff4422;
+  margin: 10px 10px 0 15px;
+  padding: 0;
 }
 
 .text span {
@@ -463,6 +470,7 @@ nav img {
   width: 96px;
   height: 96px;
   padding: 0;
+  margin: 0;
 }
 
 .list-items li {
@@ -490,7 +498,8 @@ nav img {
 }
 
 .deals-h2 a:hover,
-.deals-h2, .see-allDeals a:hover {
+.deals-h2, 
+.see-allDeals a:hover {
   color: #000;
 }
 
@@ -523,7 +532,7 @@ nav img {
   margin-top: 0;
   margin-bottom: 20px;
   font-weight: 700;
-  color: black;
+  color: #000;
   font-size: 14px;
 }
 
@@ -531,12 +540,12 @@ nav img {
   color: #ff4422;
 }
 
-.latest-news-flex .deals-para .deals-lastCost {
+.deals-lastCost {
   font-size: 12px;
   text-decoration-line: line-through;
 }
 
-.latest-news-flex .deals-para .deals-newCost {
+.deals-newCost {
   font-size: 14px;
   color: #555;
 }
@@ -585,7 +594,7 @@ nav img {
   margin-left: 5px;
 }
 
-.footer-about .footer-aboutList .footer-events {
+.footer-events {
   margin-left: -20px;
 }
 
@@ -613,12 +622,12 @@ nav img {
   text-align: center;
 }
 
-.footer-lastText .footer-logo {
+.footer-logo {
   width: 37px;
   height: 9px;
 }
 
-.footer-lastText .footer-stack {
+.footer-stack {
   width: 65.25px;
   height: 9px;
 }
