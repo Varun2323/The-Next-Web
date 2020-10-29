@@ -76,6 +76,12 @@ nav .tab-2 {
   display: none;
 }
 
+.tab-a li,
+.tab-b li {
+  margin-left: 10px;
+  list-style: none;
+}
+
 .tab-2 ul li {
   padding: 0 5px;
   margin-right: 10px;
@@ -88,10 +94,14 @@ nav .tab-2 {
   text-decoration: none;
 }
 
-.tab-a a:hover, 
+nav > .tab-2 a {
+  color: #aaa;
+}
+
+.tab-a a:hover,
 .tab-b a:hover {
   color: #fff;
-} 
+}
 
 .tab-2 a:hover {
   color: #000;
@@ -101,18 +111,8 @@ nav .tab-2 {
   color: #fff;
 }
 
-.tab-a li,
-.tab-b li {
-  margin-left: 10px;
-  list-style: none;
-}
-
 .contact {
   padding-right: 20px;
-}
-
-nav > .tab-2 a {
-  color: #aaa;
 }
 
 .searchIcon {
@@ -141,7 +141,7 @@ nav > .tab-2 a {
 .grid-box-main,
 .grid-side-box-a { 
   margin-top: 85px;
-} 
+}
 
 .img-fle-item {
   padding: 0;
@@ -150,7 +150,7 @@ nav > .tab-2 a {
 
 .img-grad-a,
 .img-grad-b {
-  background: rgba(0,0,0,.25) no-repeat;
+  background: rgba(0, 0, 0, .25) no-repeat;
   position: absolute;
   right: 0;
   left: 0;
@@ -176,6 +176,21 @@ nav > .tab-2 a {
   width: 100%;
 }
 
+.images-b img,
+.images-c img {
+  display: block;
+}
+
+.funding-box img {
+  margin-top: 20px;
+}
+
+.latest-news-flex img {
+  height: auto;
+  width: 100%;
+  display: block;
+}
+
 .grid-box-main .images-a > img {
   width: 100%;
   height: 100%;
@@ -187,11 +202,6 @@ nav > .tab-2 a {
   grid-row: 3/4;
 }
 
-.images-b img,
-.images-c img {
-  display: block;
-}
-
 .img-fle-text {
   position: absolute;
   margin-top: -120px;
@@ -199,7 +209,7 @@ nav > .tab-2 a {
   margin-right: 10px;
 }
 
-.bigText-desk  {
+.bigText-desk {
   color: #fff;
   font-size: 35px;
   font-weight: 700;
@@ -210,6 +220,7 @@ nav > .tab-2 a {
 .big-side-a {
   margin-top: 50px;
 }
+
 /*************** Latest News Section ******************/
 
 .latest-news {
@@ -222,12 +233,6 @@ nav > .tab-2 a {
   flex-direction: column;
 }
 
-.latest-news-flex img {
-  height: auto;
-  width: 100%;
-  display: block;
-}
-
 .latest-title {
   margin-top: 15px;
 }
@@ -237,7 +242,7 @@ nav > .tab-2 a {
 .funding-firstLines p {
   float: left;
   margin: 0 15px 30px 0;
-  border-right: 1px solid #ff4422;
+  border-right: 1px solid #f42;
 }
 
 .funding-firstLines .fund-updates {
@@ -258,10 +263,6 @@ nav > .tab-2 a {
 
 .fund-redTop {
   height: 40px;
-}
-
-.funding-box img {
-  margin-top: 20px;
 }
 
 .fund-lightRed {
