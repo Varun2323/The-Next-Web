@@ -1,0 +1,309 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav > .mob,
+.grid-box-main .logo-B,
+.grid-box-main .date,
+.footer-lastText br {
+  display: none;
+}
+
+nav img {
+  height: 85px;
+  padding: 10px 15px;
+  width: 105px;
+  background: #000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 4;
+}
+
+nav .tab-1 {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 70px;
+  background-color: #131313;
+  font-size: 13px;
+  font-family: "ARS Maquette", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  width: 100%;
+  height: 40px;
+  list-style: none;
+  position: fixed;
+  top: 0;
+  z-index: 3;
+}
+
+.tab-a,
+.tab-b {
+  display: flex;
+}
+
+.tab-b ul {
+  margin-right: 0;
+}
+
+nav .tab-2 {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 100px;
+  border-bottom: 1px solid #e3e3e3;
+  font-size: 13px;
+  font-family: "Shentox", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  height: 45px;
+  width: 100%;
+  background-color: #fff;
+  position: fixed;
+  margin-top: 35px;
+  z-index: 3;
+}
+
+.tab-2 ul {
+  display: flex;
+  margin-right: auto;
+  list-style: none;
+  padding: 0 10px;
+}
+
+.tab-2 ul .extra-a,
+.tab-2 ul .extra-b {
+  display: none;
+}
+
+.tab-a li,
+.tab-b li {
+  margin-left: 10px;
+  list-style: none;
+}
+
+.tab-2 ul li {
+  padding: 0 5px;
+  margin-right: 10px;
+}
+
+.tab-a a,
+.tab-b a,
+.tab-2 a {
+  color: #aaa;
+  text-decoration: none;
+}
+
+nav > .tab-2 a {
+  color: #aaa;
+}
+
+.tab-a a:hover,
+.tab-b a:hover {
+  color: #fff;
+}
+
+.tab-2 a:hover {
+  color: #000;
+}
+
+.tab-a .news {
+  color: #fff;
+}
+
+.contact {
+  padding-right: 20px;
+}
+
+.searchIcon {
+  display: block;
+  padding: 15px;
+  border-left: 1px solid #e3e3e3;
+}
+
+.tab-search-logo {
+  font-size: 17px;
+  color: #d4d4d4;
+}
+
+.tab-search-logo:hover {
+  color: #575757;
+}
+
+/*************** First three images Section ******************/
+
+.img-flex-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 5px;
+  margin: 5px 5px auto 5px;
+}
+
+.grid-box-main,
+.grid-side-box-a {
+  margin-top: 85px;
+}
+
+.img-fle-item {
+  padding: 0;
+  color: red;
+}
+
+.img-grad-a,
+.img-grad-b {
+  background: rgba(0, 0, 0, 0.25) no-repeat;
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  height: auto;
+  width: auto;
+}
+
+.img-fle-item img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.grid-box-main {
+  grid-column: 1/3;
+  grid-row: 1/3;
+  position: relative;
+}
+
+.grid-box-main .images-a {
+  height: 100%;
+  width: 100%;
+}
+
+.images-b img,
+.images-c img {
+  display: block;
+}
+
+.funding-box img {
+  margin-top: 20px;
+}
+
+.latest-news-flex img {
+  height: auto;
+  width: 100%;
+  display: block;
+}
+
+.grid-box-main .images-a > img {
+  width: 100%;
+  height: 100%;
+}
+
+.images-b,
+.images-c {
+  grid-column: 3/4;
+  grid-row: 3/4;
+}
+
+.img-fle-text {
+  position: absolute;
+  margin-top: -120px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.bigText-desk {
+  color: #fff;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 40px;
+  margin-bottom: 15px;
+}
+
+.big-side-a {
+  margin-top: 50px;
+}
+
+/*************** Latest News Section ******************/
+
+.latest-news {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 1em;
+}
+
+.latest-news-flex {
+  flex-direction: column;
+}
+
+.latest-title {
+  margin-top: 15px;
+}
+
+/************* Latest Funding Rounds Section ************/
+
+.funding-firstLines p {
+  float: left;
+  margin-top: -10px;
+  margin-bottom: 20px;
+  padding-right: 15px;
+  border-right: 1px solid #f42;
+}
+
+.funding-firstLines .fund-updates {
+  padding-left: 15px;
+}
+
+.funding-firstLines .fund-addInfo {
+  border-right: transparent;
+  padding-left: 15px;
+}
+
+.funding-grid {
+  clear: left;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 1em;
+}
+
+.fund-redTop {
+  height: 40px;
+}
+
+.fund-lightRed {
+  height: 80px;
+}
+
+/***************** Articles with Lists section ******************/
+
+.articles-lists {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 1.2em;
+  margin: 0 15px;
+}
+
+.news-gradient {
+  position: relative;
+}
+
+.news-section {
+  margin: 0;
+  position: relative;
+}
+
+.news-section .news-img-text {
+  position: absolute;
+  font-family: "ARS Maquette", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: -120px 10px 0 10px;
+  z-index: 2;
+}
+
+/**************** Latest Deals Section ******************/
+
+.see-allDeals {
+  font-size: 16px;
+}
+
+.deals-title {
+  margin-top: 10px;
+}
