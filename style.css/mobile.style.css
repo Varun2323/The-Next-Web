@@ -95,7 +95,7 @@ nav img {
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(255, 255, 255, .1)) no-repeat;
+  background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(255, 255, 255, 0.1)) no-repeat;
 }
 
 .img-flex-container a {
@@ -145,7 +145,7 @@ nav img {
 .img-fle-text .img-icons {
   font-size: 16px;
   vertical-align: middle;
-  color: hsla(0, 0%, 100%, .6);
+  color: hsla(0, 0%, 100%, 0.6);
   margin-top: 0;
 }
 
@@ -257,17 +257,17 @@ nav img {
   color: #f42;
 }
 
-.deals-h2 a:hover,
-.deals-h2,
-.see-allDeals a:hover {
-  color: #000;
-}
-
 .footer-aboutList a {
   text-decoration: none;
   color: #aaa;
   font-family: "Shentox", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 12px;
+}
+
+.deals-h2 a:hover,
+.deals-h2,
+.see-allDeals a:hover {
+  color: #000;
 }
 
 .latest-author a:hover {
@@ -324,7 +324,7 @@ nav img {
 }
 
 .fund-lightRed {
-  background: rgba(255, 68, 34, .08);
+  background: rgba(255, 68, 34, 0.08);
   font-weight: bolder;
   margin: -18px 0 10px 0;
   height: 75px;
@@ -351,7 +351,7 @@ nav img {
 
 .funding-icons {
   margin-bottom: 20px;
-  border-bottom: 1px solid rgba(255, 68, 34, .25);
+  border-bottom: 1px solid rgba(255, 68, 34, 0.25);
 }
 
 .funding-icons p {
@@ -428,7 +428,7 @@ nav img {
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(255, 255, 255, .1)) no-repeat;
+  background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(255, 255, 255, 0.1)) no-repeat;
 }
 
 .text-c a:hover {
@@ -583,7 +583,7 @@ nav img {
   margin: 20px 0 0 -5px;
 }
 
-.social-icon ion {
+.social-icon .ion {
   color: #fff;
   width: 16px;
   height: 16px;
@@ -594,7 +594,7 @@ nav img {
   margin-right: 5px;
 }
 
-.social-icon ion:hover {
+.social-icon .ion:hover {
   background: #1c1c1c;
 }
 

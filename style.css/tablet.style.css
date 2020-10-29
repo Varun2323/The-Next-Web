@@ -129,6 +129,7 @@ nav > .tab-2 a {
 .tab-search-logo:hover {
   color: #575757;
 }
+
 /*************** First three images Section ******************/
 
 .img-flex-container {
@@ -139,7 +140,7 @@ nav > .tab-2 a {
 }
 
 .grid-box-main,
-.grid-side-box-a { 
+.grid-side-box-a {
   margin-top: 85px;
 }
 
@@ -150,7 +151,7 @@ nav > .tab-2 a {
 
 .img-grad-a,
 .img-grad-b {
-  background: rgba(0, 0, 0, .25) no-repeat;
+  background: rgba(0, 0, 0, 0.25) no-repeat;
   position: absolute;
   right: 0;
   left: 0;
