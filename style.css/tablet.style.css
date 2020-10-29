@@ -36,11 +36,12 @@ nav .tab-1 {
   height: 40px;
   list-style: none;
   position: fixed;
-  top:0;
+  top: 0;
   z-index: 3;
 }
 
-.tab-a, .tab-b {
+.tab-a,
+.tab-b {
   display: flex;
 }
 
@@ -57,7 +58,7 @@ nav .tab-2 {
   font-family: "Shentox", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   height: 45px;
   width: 100%;
-  background-color: #fff;;
+  background-color: #fff;
   position: fixed;
   margin-top: 35px;
   z-index: 3;
@@ -80,7 +81,9 @@ nav .tab-2 {
   margin-right: 10px;
 }
 
-.tab-a a, .tab-b a, .tab-2 a {
+.tab-a a,
+.tab-b a,
+.tab-2 a {
   color: #aaa;
   text-decoration: none;
 }
@@ -98,7 +101,8 @@ nav .tab-2 {
   color: #fff;
 }
 
-.tab-a li, .tab-b li {
+.tab-a li,
+.tab-b li {
   margin-left: 10px;
   list-style: none;
 }
@@ -134,8 +138,9 @@ nav > .tab-2 a {
   margin: 5px 5px auto 5px;
 }
 
-.grid-box-main, .grid-side-box-a { 
-  margin-top: 85px; 
+.grid-box-main,
+.grid-side-box-a { 
+  margin-top: 85px;
 } 
 
 .img-fle-item {
@@ -171,17 +176,19 @@ nav > .tab-2 a {
   width: 100%;
 }
 
-.grid-box-main .images-a>img {
+.grid-box-main .images-a > img {
   width: 100%;
   height: 100%;
 }
 
-.images-b, .images-c {
+.images-b,
+.images-c {
   grid-column: 3/4;
   grid-row: 3/4;
 }
 
-.images-b img, .images-c img {
+.images-b img,
+.images-c img {
   display: block;
 }
 
@@ -229,9 +236,7 @@ nav > .tab-2 a {
 
 .funding-firstLines p {
   float: left;
-  margin-top: 0;
-  margin-bottom: 30px;
-  padding-right: 15px;
+  margin: 0 15px 30px 0;
   border-right: 1px solid #ff4422;
 }
 
@@ -284,9 +289,7 @@ nav > .tab-2 a {
 .news-section .news-img-text {
   position: absolute;
   font-family: "ARS Maquette", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  margin-top: -120px;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin: -120px 10px 0 10px;
   z-index: 2;
 }
 
@@ -296,6 +299,6 @@ nav > .tab-2 a {
   font-size: 16px;
 }
 
-.deals-title{
+.deals-title {
   margin-top: 10px;
 }
