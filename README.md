@@ -28,7 +28,7 @@ Project based on The Next Web home page, it shows a navbar with Search button on
  
  
  
-  [Live demo link](https://varun2323.github.io/The-Next-Web/.)
+  [Live demo link](https://rawcdn.githack.com/Varun2323/The-Next-Web/4fe73dc04b24093d9ff0f20efb2315ea9ce60eb4/index.html)
  
  
 
