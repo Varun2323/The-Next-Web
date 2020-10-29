@@ -60,7 +60,7 @@ nav img {
   box-sizing: border-box;
   margin: 0;
   font-size: 20px;
-  color: #ff4422;
+  color: #f42;
   border-left: 1px solid lightgray;
   padding: 12px;
   display: block;
@@ -80,7 +80,9 @@ nav img {
   position: relative;
 }
 
-.images-a:hover, .images-b:hover, .images-c:hover {
+.images-a:hover,
+.images-b:hover,
+.images-c:hover {
   cursor: pointer;
 }
 

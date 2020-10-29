@@ -5,7 +5,7 @@ body {
 }
 
 nav img {
-   display: none; 
+  display: none;
 }
 
 nav .tab-1 {
@@ -19,9 +19,9 @@ nav .tab-1 {
 }
 
 nav .tab-1 .tab-a,
-nav .tab-2 { 
+nav .tab-2 {
   padding-left: 0;
-  margin-left: 0
+  margin-left: 0;
 }
 
 nav .tab-2 {
@@ -37,11 +37,11 @@ nav .tab-2 {
   left: 5px;
   padding: 10px;
   z-index: 1;
-} 
+}
 
 .grid-box-main .date {
   display: block;
-  color:#fff;
+  color: #fff;
   font-weight: 200;
   top: 5px;
   right: 20px;
@@ -50,7 +50,6 @@ nav .tab-2 {
   font-family: "ARS Maquette", sans-serif, 'Times New Roman', Times, serif;
   z-index: 1;
 }
-
 
 .tab-2 ul .extra-a,
 .tab-2 ul .extra-b {
@@ -68,8 +67,8 @@ nav .tab-2 {
 }
 
 .grid-box-main,
-.grid-side-box-a { 
-  margin-top: 85px; 
+.grid-side-box-a {
+  margin-top: 85px;
 }
 
 .images-a {
@@ -83,9 +82,8 @@ nav .tab-2 {
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(to top, rgba(0,0,0,1), rgba(246,36,89,.5)) no-repeat;
+  background: linear-gradient(to top,rgba(0,0,0,1),rgba(246,36,89,.5)) no-repeat;
 }
-
 
 .big-side-b {
   margin-top: 40px;
@@ -112,7 +110,7 @@ nav .tab-2 {
 }
 
 .funding-firstLines .fund-addInfo {
-  border-right: 1px solid #ff4422;
+  border-right: 1px solid #f42;
 }
 
 .funding-firstLines .fund-seeMore {
